@@ -1,0 +1,632 @@
+./vendor/assets/javascripts/angular-ui.js:*       An equalsTracker attrs has been added for use cases that would render the overall length tracker the same even though the events have changed to force updates.
+./vendor/assets/javascripts/angular-ui.js:              /* If the calendar has options added then render them */
+./vendor/assets/javascripts/angular-ui.js:				// Override the ngModelController $render method, which is what gets called when the model is updated.
+./vendor/assets/javascripts/angular-ui.js:				ngModel.$render = function () {
+./vendor/assets/javascripts/angular-ui.js:        renderview,
+./vendor/assets/javascripts/angular-ui.js:      renderview = function (viewvalue) {
+./vendor/assets/javascripts/angular-ui.js:      controller.$render = function () {
+./vendor/assets/javascripts/angular-ui.js:        renderview(value);
+./vendor/assets/javascripts/angular-ui.js:          controller.$render = function () {
+./vendor/assets/javascripts/angular-ui.js:          // Force a render to override whatever is in the input text box
+./vendor/assets/javascripts/angular-ui.js:          controller.$render();
+./vendor/assets/javascripts/angular-ui.js:        /* We override the render method to run the jQuery mask plugin
+./vendor/assets/javascripts/angular-ui.js:        controller.$render = function () {
+./vendor/assets/javascripts/angular-ui.js:          ctrl.$render();
+./vendor/assets/javascripts/angular-ui.js:          controller.$render = function () {
+./vendor/assets/javascripts/angular-ui.js:              // Delayed so that the options have time to be rendered
+./vendor/assets/javascripts/angular-ui.js:          ngModel.$render = function() {
+./vendor/assets/javascripts/angularstrap.js:          controller.$render = function ngModelRender() {
+./vendor/assets/javascripts/angular.js:     * to instantiate the controller and render the view.
+./vendor/assets/javascripts/angular.js:       *   - it will execute in the current script execution context (before any DOM rendering).
+./vendor/assets/javascripts/angular.js:  ctrl.$render = function() {
+./vendor/assets/javascripts/angular.js:  ctrl.$render = function() {
+./vendor/assets/javascripts/angular.js:  attr.$observe('value', ctrl.$render);
+./vendor/assets/javascripts/angular.js:  ctrl.$render = function() {
+./vendor/assets/javascripts/angular.js: * specifically does not contain any logic which deals with DOM rendering or listening to
+./vendor/assets/javascripts/angular.js:              ngModel.$render = function() {
+./vendor/assets/javascripts/angular.js:   * @name ng.directive:ngModel.NgModelController#$render
+./vendor/assets/javascripts/angular.js:  this.$render = noop;
+./vendor/assets/javascripts/angular.js:        ctrl.$render();
+./vendor/assets/javascripts/angular.js: * prefered in order to benefit from progressive rendering of the browser view.
+./vendor/assets/javascripts/angular.js: * * View — The template (HTML with data bindings) is rendered into the View.
+./vendor/assets/javascripts/angular.js: * including the rendered template of the current route into the main layout (`index.html`) file.
+./vendor/assets/javascripts/angular.js:            this.renderUnknownOption(value);
+./vendor/assets/javascripts/angular.js:      self.renderUnknownOption = function(val) {
+./vendor/assets/javascripts/angular.js:        self.renderUnknownOption = noop;
+./vendor/assets/javascripts/angular.js:        ngModelCtrl.$render = function() {
+./vendor/assets/javascripts/angular.js:              selectCtrl.renderUnknownOption(viewValue);
+./vendor/assets/javascripts/angular.js:        ctrl.$render = function() {
+./vendor/assets/javascripts/angular.js:            ctrl.$render();
+./vendor/assets/javascripts/angular.js:        ctrl.$render = render;
+./vendor/assets/javascripts/angular.js:        scope.$watch(render);
+./vendor/assets/javascripts/angular.js:        function render() {
+./vendor/assets/javascripts/angular.js:          var optionGroups = {'':[]}, // Temporary location for the option groups before we render them
+./vendor/assets/javascripts/angular-resource.js: *   usually the resource is assigned to a model which is then rendered by the view. Having an empty
+./vendor/assets/javascripts/angular-resource.js: *   object results in no rendering, once the data arrives from the server then the object is
+./vendor/assets/javascripts/angular-resource.js: *   populated with the data and the view automatically re-renders itself showing the new data. This
+./features/support/env.rb:# be rendered instead.
+./test/lib/angular/angular-scenario.js:     * to instantiate the controller and render the view.
+./test/lib/angular/angular-scenario.js:       *   - it will execute in the current script execution context (before any DOM rendering).
+./test/lib/angular/angular-scenario.js:  ctrl.$render = function() {
+./test/lib/angular/angular-scenario.js:  ctrl.$render = function() {
+./test/lib/angular/angular-scenario.js:  attr.$observe('value', ctrl.$render);
+./test/lib/angular/angular-scenario.js:  ctrl.$render = function() {
+./test/lib/angular/angular-scenario.js: * specifically does not contain any logic which deals with DOM rendering or listening to
+./test/lib/angular/angular-scenario.js:              ngModel.$render = function() {
+./test/lib/angular/angular-scenario.js:   * @name ng.directive:ngModel.NgModelController#$render
+./test/lib/angular/angular-scenario.js:  this.$render = noop;
+./test/lib/angular/angular-scenario.js:        ctrl.$render();
+./test/lib/angular/angular-scenario.js: * prefered in order to benefit from progressive rendering of the browser view.
+./test/lib/angular/angular-scenario.js: * * View — The template (HTML with data bindings) is rendered into the View.
+./test/lib/angular/angular-scenario.js: * including the rendered template of the current route into the main layout (`index.html`) file.
+./test/lib/angular/angular-scenario.js:            this.renderUnknownOption(value);
+./test/lib/angular/angular-scenario.js:      self.renderUnknownOption = function(val) {
+./test/lib/angular/angular-scenario.js:        self.renderUnknownOption = noop;
+./test/lib/angular/angular-scenario.js:        ngModelCtrl.$render = function() {
+./test/lib/angular/angular-scenario.js:              selectCtrl.renderUnknownOption(viewValue);
+./test/lib/angular/angular-scenario.js:        ctrl.$render = function() {
+./test/lib/angular/angular-scenario.js:            ctrl.$render();
+./test/lib/angular/angular-scenario.js:        ctrl.$render = render;
+./test/lib/angular/angular-scenario.js:        scope.$watch(render);
+./test/lib/angular/angular-scenario.js:        function render() {
+./test/lib/angular/angular-scenario.js:          var optionGroups = {'':[]}, // Temporary location for the option groups before we render them
+./app/views/bookings/discuss/_booking_sidebar_supply.html.haml:    = render "bookings/discuss/sidebar/broker_checklist", { booking: booking, booking_percentage_done: @booking_percentage_done }
+./app/views/bookings/discuss/_booking_sidebar_supply.html.haml:    = render "bookings/discuss/sidebar/booking_details", { booking: booking }
+./app/views/bookings/discuss/_booking_sidebar.html.haml:    = render "bookings/discuss/sidebar/checklist", { booking: booking }
+./app/views/bookings/discuss/_booking_sidebar.html.haml:    / = render "bookings/discuss/sidebar/booking_details", { booking: booking }
+./app/views/bookings/discuss/_booking_sidebar.html.haml:    / = render "bookings/discuss/sidebar/property_details", { booking: booking }
+./app/views/bookings/discuss/_property_information.haml:  .span7= render partial: "properties/show/images", locals: { property: booking.property }
+./app/views/bookings/show.html.haml:          = render "bookings/show/property_review"
+./app/views/bookings/show.html.haml:          = render "properties/show/images", { property: @booking.property }
+./app/views/bookings/show.html.haml:          = render "bookings/show/event_review", { booking: @booking, f: f }
+./app/views/bookings/show.html.haml:          = render "bookings/show/event_description", { booking: @booking, f: f }
+./app/views/bookings/show.html.haml:          = render "bookings/show/renter_information", { booking: @booking, f: f }
+./app/views/bookings/broker_booking_response.html.haml:        = render "bookings/show/renter_review", { booking: @booking }
+./app/views/bookings/broker_booking_response.html.haml:        = render "bookings/show/event_review", { booking: @booking }
+./app/views/bookings/booking_confirmed/_related_spaces.html.haml:    = render partial: "properties/partials/index_property", locals: {property: property}
+./app/views/bookings/discuss_supply.html.haml:      = render "bookings/discuss/booking_info", { booking: @booking }
+./app/views/bookings/discuss_supply.html.haml:    .span11= render "bookings/discuss/chat_window", { booking: @booking, conversation: @conversation, user: @user }
+./app/views/bookings/discuss_supply.html.haml:  = render "bookings/discuss/renter_information", { booking: @booking }
+./app/views/bookings/discuss_supply.html.haml:  = render "bookings/discuss/property_information", { booking: @booking }
+./app/views/bookings/discuss_supply.html.haml:    .span8= render "properties/show/features", { property: @booking.property}
+./app/views/bookings/discuss_supply.html.haml:    = render "properties/show/details", { property: @booking.property}
+./app/views/bookings/discuss_demand.html.haml:    .span11= render "bookings/discuss/booking_info", { booking: @booking }
+./app/views/bookings/discuss_demand.html.haml:      .span11= render "bookings/discuss/chat_window", { booking: @booking, conversation: @conversation }
+./app/views/bookings/discuss_demand.html.haml:    = render "bookings/discuss/property_information", { booking: @booking }
+./app/views/bookings/discuss_demand.html.haml:      .span8= render "properties/show/features", { property: @booking.property}
+./app/views/bookings/discuss_demand.html.haml:      = render "properties/show/details", { property: @booking.property}
+./app/views/bookings/booking_confirmed.html.haml:  .top_30= render partial: "bookings/booking_confirmed/related_spaces", locals: { spaces: @related_spaces }
+./app/views/bookings/booking_confirmed.html.haml:  = render "shared/google_booking_conversion"
+./app/views/case_studies/show.haml:    = render "static_pages/sidebar"
+./app/views/case_studies/show.haml:        = render "case_studies/partials/popup_request_form", { popup_request: @popup_request }
+./app/views/case_studies/show.haml:        = render "case_studies/partials/quote", { case_study: @case_study }
+./app/views/layouts/devise.html.haml:  = render "shared/head"
+./app/views/layouts/devise.html.haml:    = render 'shared/messages'
+./app/views/layouts/devise.html.haml:    = render "shared/header"
+./app/views/layouts/devise.html.haml:    = render "shared/footer"
+./app/views/layouts/photo_management.html.haml:  = render "shared/head"
+./app/views/layouts/photo_management.html.haml:    = render 'shared/messages'
+./app/views/layouts/photo_management.html.haml:    = render "shared/header"
+./app/views/layouts/photo_management.html.haml:    = render "dashboards/header/dashboard_header"
+./app/views/layouts/photo_management.html.haml:        .span4= render partial: "photo_management/sidebar"
+./app/views/layouts/photo_management.html.haml:    = render "shared/footer"
+./app/views/layouts/photo_management.html.haml:    = render partial: "dashboards/help_desk_form"
+./app/views/layouts/dashboard.html.haml:  = render "shared/head"
+./app/views/layouts/dashboard.html.haml:    = render 'shared/messages'
+./app/views/layouts/dashboard.html.haml:    = render "shared/header"
+./app/views/layouts/dashboard.html.haml:    = render "dashboards/header/dashboard_header"
+./app/views/layouts/dashboard.html.haml:        .span4= render partial: "dashboards/sidebar"
+./app/views/layouts/dashboard.html.haml:    = render "shared/footer"
+./app/views/layouts/dashboard.html.haml:    = render partial: "dashboards/help_desk_form"
+./app/views/layouts/application.html.erb:  <%= render "shared/head" %>
+./app/views/layouts/application.html.erb:  <%= render 'shared/messages' %>
+./app/views/layouts/application.html.erb:  <%= render "shared/header" %>
+./app/views/layouts/application.html.erb:  <%= render "shared/footer" %>
+./app/views/layouts/supply.html.haml:  = render "shared/dashboard/head"
+./app/views/layouts/supply.html.haml:      = render 'shared/messages'
+./app/views/layouts/supply.html.haml:      = render "shared/dashboard/header"
+./app/views/layouts/supply.html.haml:              = render "shared/dashboard/main_name"
+./app/views/layouts/welcome.html.haml:  = render "shared/head"
+./app/views/layouts/demand.html.haml:  = render "shared/dashboard/head"
+./app/views/layouts/demand.html.haml:      = render 'shared/messages'
+./app/views/layouts/demand.html.haml:      = render "shared/dashboard/header"
+./app/views/layouts/demand.html.haml:              = render "shared/dashboard/main_name"
+./app/views/users/show.html.haml:      .span3.widget= render partial: "users/show/profile", locals: {user: @user}
+./app/views/users/show.html.haml:      .span9= render partial: "users/show/properties_list", locals: {user: @user, properties: @properties}
+./app/views/users/show/_broker_profile.html.haml:  = render "users/partials/show_about",  {user: @user}
+./app/views/users/show/_broker_profile.html.haml:  = render "users/partials/show_details", {user: @user}
+./app/views/users/show/_broker_profile.html.haml:#listing_properties= render "users/partials/listing_properties", {user: @user, properties: @properties}
+./app/views/users/show/_renter_profile.html.haml:    /   = render "users/partials/renter_properties", {properties: @properties}
+./app/views/users/user_properties_with_state.js.haml:$("#property_listing").html("#{ render 'users/partials/properties_listings', {properties: @properties}}");
+./app/views/users/partials/_listing_properties.html.haml:      = render "properties/partials/index_property", {property: property}
+./app/views/users/partials/_user_properties_with_state.js.haml:$(#property_listing).html("#{ render 'properties/partials/index_property', locals: {properties: @properties}}");
+./app/views/photo_management/photo_appointments/show.html.haml:    = render partial: "photo_management/partials/photo_appointment_slots", locals: {slots: @slots }
+./app/views/photo_management/photo_appointments/index.html.haml:  = render partial: "photo_management/photo_appointments/top_bar"
+./app/views/photo_management/photo_appointments/index.html.haml:    #search_map.span11{ style: "height: 400px;", :'properties-map' => true, :properties => 'appointments', :city => 'appointmentsCity', :'map-lat' => 'mapLat', :'map-lng' => 'mapLng', :'map-radius' => 'mapRadius', :'search-map' => 'searchMap', :'render-map' => '!showListView' }
+./app/views/photo_management/photo_appointments/scheduled.html.haml:        =render "photo_management/partials/photo_appointments", {:property => appointment.property, :appointment => appointment}
+./app/views/photo_management/photo_appointments/scheduled.html.haml:          =render "photo_management/partials/photo_appointments", {:property => appointment.property, :appointment => appointment}
+./app/views/static_pages/list_space.html.haml:      .span2= render "static_pages/sidebar"
+./app/views/static_pages/how_it_works.html.erb:  <%= render "static_pages/sidebar" %>
+./app/views/static_pages/about.html.erb:  <%= render "static_pages/sidebar" %>
+./app/views/static_pages/home.html.erb:    <%= render partial: 'properties/partials/index_property', locals: {property: property} %>
+./app/views/static_pages/home.html.erb:    <%= render partial: 'properties/partials/index_property', locals: {property: property} %>
+./app/views/static_pages/team.html.erb:  <%= render "static_pages/sidebar" %>
+./app/views/static_pages/terms.html.haml:  Arbitrator’s Decision. The arbitrator will render an award within the time frame specified in
+./app/views/static_pages/contact.html.erb:  <%= render "static_pages/sidebar" %>
+./app/views/static_pages/press.html.erb:  <%= render "static_pages/sidebar" %>
+./app/views/shared/_header.html.erb:            <%= render partial: "shared/header/header_support" %>
+./app/views/shared/dashboard/_header.html.haml:            = render partial: "shared/header/header_support"
+./app/views/supply/bookings/show.html.haml:            = render "supply/proposal_cards/received_proposal", { proposal_card: @booking.proposal_card } if @booking.proposal_card
+./app/views/supply/bookings/accept.js.erb:$( "#proposal_result" ).html( "<%= escape_javascript( render( :partial => "supply/bookings/result", :locals => { :result => @booking} ) ) %>" );
+./app/views/supply/bookings/reject.js.erb:$( "#proposal_result" ).html( "<%= escape_javascript( render( :partial => "supply/bookings/result", :locals => { :result => @booking} ) ) %>" );
+./app/views/supply/bookings/request_edit.js.erb:$( "#proposal_result" ).html( "<%= escape_javascript( render( :partial => "supply/bookings/request_edit") ) %>" );
+./app/views/supply/listings/_photos.html.haml:        .bottom_20= render 'image_fields', f: i
+./app/views/supply/listings/_photos.html.haml:      %div= link_to_add_association 'Add New Image', f, :images, :render_options => {:wrapper => 'inline'}, class: "btn"
+./app/views/supply/listings/edit.html.haml:      = render "details"
+./app/views/supply/listings/edit.html.haml:      = render "photos"
+./app/views/supply/listings/edit.html.haml:      = render "events_list"
+./app/views/supply/listings/_details.html.haml:  = render "supply/listings/details/general_details", {f: f}
+./app/views/supply/listings/_details.html.haml:  = render "supply/listings/details/location_details", {f: f}
+./app/views/supply/listings/_details.html.haml:  = render "supply/listings/details/pricing_details", {f: f}
+./app/views/supply/listings/_details.html.haml:  = render "supply/listings/details/features", {f: f}
+./app/views/supply/listings/_details.html.haml:  = render "supply/listings/details/some_context", {f: f}
+./app/views/supply/listings/new.html.haml:    = render "supply/listings/details/general_details", {f: f}
+./app/views/supply/listings/new.html.haml:    = render "supply/listings/details/location_details", {f: f}
+./app/views/supply/listings/new.html.haml:    = render "supply/listings/details/pricing_details", {f: f}
+./app/views/supply/proposal_cards/_received_proposal.html.haml:    = render partial: "supply/proposal_cards/form", locals: { f: f, proposal_card: @booking.proposal_card, editable: false }
+./app/views/welcome_funnel/supply/get_started.html.haml:    = render partial: "welcome_funnel/supply/get_started/supply_header", locals: { user: @user }
+./app/views/welcome_funnel/supply/new_space.html.haml:            = render partial: "properties/partials/form/location", locals: {f: p}
+./app/views/welcome_funnel/supply/new_space.html.haml:            = render partial: "properties/partials/form/about", locals: {f: p, hide_listing_price: true}
+./app/views/welcome_funnel/demand/new_popup.mobile.haml:          = render "welcome_funnel/demand/rfp_form", { user: @user, new_popup: @new_popup }
+./app/views/welcome_funnel/demand/new_popup.tablet.haml:          = render "welcome_funnel/demand/rfp_form", { user: @user, new_popup: @new_popup }
+./app/views/welcome_funnel/demand/new_popup.html.haml:          = render "welcome_funnel/demand/rfp_form", { user: @user, new_popup: @new_popup }
+./app/views/devise/confirmations/new.html.erb:<%= render "devise/shared/links" %>
+./app/views/devise/passwords/edit.html.haml:          = render "devise/shared/links"
+./app/views/devise/passwords/new.html.haml:          = render "devise/shared/links"
+./app/views/devise/unlocks/new.html.erb:<%= render "devise/shared/links" %>
+./app/views/devise/sessions/new.html.haml:          = render "devise/shared/links"
+./app/views/admin/stats/_index.html.haml:      = render partial: 'admin/stats/property_monthly_growth'
+./app/views/admin/stats/_index.html.haml:      = render partial: 'admin/stats/property_weekly_growth'
+./app/views/admin/stats/_index.html.haml:      = render partial: 'admin/stats/property_overall_stats'
+./app/views/admin/stats/_index.html.haml:      = render partial: "admin/stats/booking_monthly_growth"
+./app/views/properties/property_documentation.html.haml:  = render 'properties/partials/form/checklist_items', f: f
+./app/views/properties/show.html.haml:  = render partial: "properties/show/page_header", locals: { property: @property }
+./app/views/properties/show.html.haml:    = render partial: "properties/show/section_tabs", locals: { property: @property }
+./app/views/properties/show.html.haml:              .breadcrumbs{:style => "width: 600px;"}=render_breadcrumbs
+./app/views/properties/show.html.haml:              = render partial: "properties/show/images", locals: { property: @property }
+./app/views/properties/show.html.haml:              = render partial: "properties/show/street_view", locals: { property: @property }
+./app/views/properties/show.html.haml:              = render partial: "properties/show/map", locals: { property: @property }
+./app/views/properties/show.html.haml:              = render partial: "properties/show/calendar", locals: { property: @property }
+./app/views/properties/show.html.haml:              = render partial: "properties/show/floor_plan", locals: { property: @property }
+./app/views/properties/show.html.haml:              = render partial: "properties/show/book_space", locals: { property: @property, booking: @booking }
+./app/views/properties/show.html.haml:  = render partial: "properties/show/about", locals: { property: @property }
+./app/views/properties/show.html.haml:  = render partial: "properties/show/details", locals: { property: @property }
+./app/views/properties/show.html.haml:      = render partial: "properties/show/near_by", locals: { property: @property }
+./app/views/properties/show.html.haml:      .span6= render partial: "properties/show/features", locals: { property: @property}
+./app/views/properties/show.html.haml:      .span12= render partial: "properties/show/features", locals: { property: @property}
+./app/views/properties/show.html.haml:  .row.top_20= render partial: "properties/show/neighbors", locals: {properties: @nearby}
+./app/views/properties/show.html.haml:  = render "properties/show/action_bar", { property: @property }
+./app/views/properties/edit.html.haml:      = render "properties/partials/form/about", {f: f}
+./app/views/properties/edit.html.haml:      = render "properties/partials/form/location", {f: f}
+./app/views/properties/edit.html.haml:      = render "properties/partials/form/additional_info", {f: f}
+./app/views/properties/edit.html.haml:      = render "properties/partials/form/features", {f: f}
+./app/views/properties/edit.html.haml:      = render partial: "properties/partials/form/images", locals: {f: f}
+./app/views/properties/_admin_form.html.haml:    %ol= render  "properties/partials/form/location", {f: f}
+./app/views/properties/_admin_form.html.haml:    %ol= render  "properties/partials/form/about", {f: f}
+./app/views/properties/_admin_form.html.haml:    %ol= render  "properties/partials/form/additional_info", {f: f}
+./app/views/properties/_admin_form.html.haml:      = render  "properties/partials/form/features", {f: f}
+./app/views/properties/_admin_form.html.haml:      = render  "properties/partials/admin_form/images", {f: f}
+./app/views/properties/_admin_form.html.haml:      = render 'properties/partials/form/checklist_items', f: f
+./app/views/properties/_admin_form.html.haml:      = render "properties/partials/admin_form/floor_plan", {f: f}
+./app/views/properties/_admin_form.html.haml:      = render "properties/partials/admin_form/estimated_value", {f: f}
+./app/views/properties/show/_book_space.html.erb:          <%= render partial: 'properties/show/send_proposal_card', locals: { proposal_cards: @proposal_cards, property: @property } %>
+./app/views/properties/show/_book_space.html.erb:            <%= render partial: "properties/show/star_space", locals: { property: property } %>
+./app/views/properties/show/_neighbors.html.haml:  = render partial: "properties/partials/index_property", locals: {property: property}
+./app/views/properties/new.html.haml:      = render partial: "properties/partials/form/location", locals: {f: f}
+./app/views/properties/new.html.haml:      = render partial: "properties/partials/form/about", locals: {f: f}
+./app/views/properties/additional_information.html.haml:      = render partial: "properties/partials/form/additional_info", locals: {f: f}
+./app/views/properties/additional_information.html.haml:      = render partial: "properties/partials/form/features", locals: {f: f}
+./app/views/properties/additional_information.html.haml:      = render partial: "properties/partials/form/images", locals: {f: f}
+./app/views/properties/additional_information.html.haml:      / = render partial: "properties/partials/form/floor_plan", locals: {f: f}
+./app/views/properties/additional_information.html.haml:      / = render partial: "properties/partials/form/documents", locals: {f: f}
+./app/views/properties/_form.html.haml:      = render partial: "properties/partials/form/about", locals: {f: f}
+./app/views/properties/_form.html.haml:      = render partial: "properties/partials/form/location", locals: {f: f}
+./app/views/properties/partials/form/_checklist_items.html.haml:    = render 'properties/build/checklist_item', f: d
+./app/views/properties/partials/form/_checklist_items.html.haml:  = link_to_add_association 'Add Checklist Item', f, :checklist_items, partial: 'properties/build/checklist_item', :render_options => {:wrapper => 'inline' }
+./app/views/properties/partials/form/_documents.html.haml:      = render 'properties/build/documents_fields', {f: i}
+./app/views/properties/partials/form/_documents.html.haml:    .new_document= link_to_add_association "Add Documents", f, :property_documents, :render_options => {:wrapper => 'inline' }, partial: "properties/build/documents_fields"
+./app/views/properties/partials/form/_images.html.haml:      .bottom_20= render 'image_fields', f: i
+./app/views/properties/partials/form/_images.html.haml:    %div= link_to_add_association 'Add New Image', f, :images, :render_options => {:wrapper => 'inline'}, class: "btn"
+./app/views/properties/partials/form/_floor_plan.html.haml:      = render 'properties/build/floor_plan_fields', {f: i}
+./app/views/properties/partials/form/_floor_plan.html.haml:    .new_floor_plan= link_to_add_association "Add a Floorplan", f, :floor_plan, :render_options => {:wrapper => 'inline' }, partial: "properties/build/floor_plan_fields"
+./app/views/popup_requests/show.html.haml:              = render partial: "properties/partials/property", locals: { property: property, popup_request: @popup_request }
+./app/views/popup_requests/show.html.haml:            = render partial: "properties/partials/first_choice_property",
+./app/views/popup_requests/show.html.haml:              = render partial: "properties/partials/property", locals: { property: property, popup_request: @popup_request }
+./app/views/demand/bookings/show.html.haml:          = render "demand/proposal_cards/sent_proposal", {proposal_card: @booking.proposal_card}
+./app/views/demand/proposal_cards/edit.html.haml:  = render :partial => "form", :locals => { :f => f, :editable => true }
+./app/views/demand/proposal_cards/_sent_proposal.html.haml:  = render :partial => "demand/proposal_cards/form", :locals => { :f => f, :editable => editable }
+./app/views/demand/proposal_cards/new.html.haml:  = render :partial => "form", :locals => { :f => f, :editable => true }
+./app/views/demand/proposal_cards/deliver.js.erb:$( "#sentproposal" ).html( "<%= escape_javascript( render( :partial => "demand/proposal_cards/sent_proposal", :locals => { :proposal_card => @proposal_card} ) ) %>" );
+./app/views/dashboards/modals/property_modal/_property.html.haml:          = render partial: "dashboards/modals/property_modal/property_details", locals: { p: @property }
+./app/views/dashboards/modals/property_modal/_property.html.haml:          = render partial: "dashboards/modals/property_modal/property_images", locals: { p: @property }
+./app/views/dashboards/modals/property_modal/_property.html.haml:          = render partial: "dashboards/modals/property_modal/property_calendar", locals: { p: @property }
+./app/views/dashboards/modals/property_modal/_property.html.haml:          = render partial: "dashboards/modals/property_modal/property_paperwork", locals: { p: @property }
+./app/views/dashboards/modals/property_modal/_property.html.haml:          = render partial: "dashboards/modals/property_modal/property_bookings", locals: { p: @property }
+./app/views/dashboards/modals/booking_modal/_main.html.haml:          = render partial: "dashboards/modals/booking_modal/booking_details", locals: { booking: @booking }
+./app/views/dashboards/modals/booking_modal/_main.html.haml:          = render partial: "dashboards/modals/property_modal/property_details", locals: { p: @booking.property }
+./app/views/dashboards/modals/booking_modal/_main.html.haml:          = render partial: "dashboards/modals/property_modal/property_images", locals: { p: @booking.property }
+./app/views/dashboards/modals/booking_modal/_main.html.haml:          = render partial: "dashboards/modals/booking_modal/booking_documents", locals: { booking: @booking }
+./app/views/dashboards/demand/bookings.html.haml:= render partial: "dashboards/demand/partials/bookings_table", locals: { bookings: @user_bookings }
+./app/controllers/users_controller.rb:        format.html { render :action => "edit", notice: "Something went wrong." }
+./app/controllers/users_controller.rb:      render "users/show/_broker_profile"
+./app/controllers/users_controller.rb:      render "users/show/_renter_profile"
+./app/controllers/properties_controller.rb:    render json: Property.select('distinct city, state').where('live = true AND verified = true').collect {|p| "#{p.city}, #{p.state}"}
+./app/controllers/properties_controller.rb:    return render json: [] unless @properties.length > 0
+./app/controllers/properties_controller.rb:      format.json { render json: @price }
+./app/controllers/properties_controller.rb:      render :text => saved
+./app/controllers/properties_controller.rb:      render :text => false
+./app/controllers/properties_controller.rb:      render :action => "new"
+./app/controllers/properties_controller.rb:      render :action => "edit"
+./app/controllers/properties_controller.rb:    render partial: "dashboards/modals/property_modal/property", layout: nil
+./app/controllers/bookings_controller.rb:      render :action => "new"
+./app/controllers/bookings_controller.rb:      render controller: "bookings", action: "show", notice: "Something went wrong. Please try again."
+./app/controllers/bookings_controller.rb:      render partial: "dashboards/modals/booking_modal/main", layout: nil
+./app/controllers/bookings_controller.rb:      render partial: "dashboards/modals/booking_modal/main", layout: nil
+./app/controllers/bookings_controller.rb:      render "bookings/discuss_demand"
+./app/controllers/bookings_controller.rb:      render "bookings/discuss_supply"
+./app/controllers/dashboards_controller.rb:    render "dashboards/supply/supply_bookings"
+./app/controllers/dashboards_controller.rb:    render "/dashboards/demand/bookings"
+./app/controllers/dashboards_controller.rb:    render "/dashboards/supply/properties"
+./app/controllers/messages_controller.rb:    render :nothing => true
+./app/controllers/validations_controller.rb:      format.json { render json: !@user }
+./app/controllers/search_locations_controller.rb:    render nothing: true
+./app/controllers/search_locations_controller.rb:    render :json => @cities
+./app/controllers/supply/bookings_controller.rb:      format.js {render :layout => false}
+./app/controllers/supply/bookings_controller.rb:      format.js {render :layout => false}
+./app/controllers/supply/bookings_controller.rb:      format.js {render :layout => false}
+./app/controllers/welcome_funnel/supply_controller.rb:      render controller: "WelcomeFunnel::Supply", action: "new_space"
+./app/controllers/welcome_funnel/demand_controller.rb:        render controller: "WelcomeFunnel::Demand", action: "new_popup" and return
+./app/controllers/welcome_funnel/demand_controller.rb:      render controller: "WelcomeFunnel::Demand", action: "new_popup" and return
+./app/controllers/welcome_funnel/demand_controller.rb:        render controller: "WelcomeFunnel::Demand", action: "new_popup" and return
+./app/controllers/application_controller.rb:    render template: "error/404"
+./app/controllers/welcome_funnel_controller.rb:    render controller: "welcome_funnel", action: "index"
+./app/controllers/demand/property_proposal_cards_controller.rb:    render :json => @booking.to_json
+./app/controllers/demand/property_proposal_cards_controller.rb:    render :json => @booking.to_json
+./app/controllers/demand/proposal_cards_controller.rb:      format.json { render json: @proposal_card, status: :created }
+./app/controllers/chats_controller.rb:      format.js { render nothing: true }
+./app/controllers/chats_controller.rb:      render :json => response
+./app/controllers/chats_controller.rb:      render :text => "Forbidden", :status => '403'
+./app/admin/stats.rb:    render "index"
+./app/admin/properties.rb:    render 'batch_assign_properties'
+./app/admin/properties.rb:    render partial: "properties/admin_form", locals: {f: f}
+./app/assets/javascripts/apps/admin/highcharts.js:					options.chart = Highcharts.merge(options.chart, { renderTo: this[0] });
+./app/assets/javascripts/apps/admin/highcharts.js:	 * Initialize the SVG renderer
+./app/assets/javascripts/apps/admin/highcharts.js:	 * @param {Object} renderer
+./app/assets/javascripts/apps/admin/highcharts.js:	init: function (renderer, nodeName) {
+./app/assets/javascripts/apps/admin/highcharts.js:		wrapper.renderer = renderer;
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = wrapper.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:						value = renderer.color(value, element, key);
+./app/assets/javascripts/apps/admin/highcharts.js:						value = renderer.color(value, element, key);
+./app/assets/javascripts/apps/admin/highcharts.js:							renderer.buildText(wrapper);
+./app/assets/javascripts/apps/admin/highcharts.js:			d: wrapper.renderer.symbols[wrapper.symbolName](wrapper.x, wrapper.y, wrapper.width, wrapper.height, wrapper)
+./app/assets/javascripts/apps/admin/highcharts.js:		return this.attr('clip-path', clipRect ? 'url(' + this.renderer.url + '#' + clipRect.id + ')' : NONE);
+./app/assets/javascripts/apps/admin/highcharts.js:			elemWrapper.renderer.buildText(elemWrapper);
+./app/assets/javascripts/apps/admin/highcharts.js:	 * Apply CSS to HTML elements. This is used in text within SVG rendering and
+./app/assets/javascripts/apps/admin/highcharts.js:	 * by the VML renderer
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = wrapper.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:				renderer.invertChild(child, elem);
+./app/assets/javascripts/apps/admin/highcharts.js:					if (renderer.isSVG) { // #916
+./app/assets/javascripts/apps/admin/highcharts.js:				baseline = renderer.fontMetrics(elem.style.fontSize).b;
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = this.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:			alignedObjects = renderer.alignedObjects;
+./app/assets/javascripts/apps/admin/highcharts.js:			if (!box || isString(box)) { // boxes other than renderer handle this internally
+./app/assets/javascripts/apps/admin/highcharts.js:				this.alignTo = alignTo = box || 'renderer';
+./app/assets/javascripts/apps/admin/highcharts.js:		box = pick(box, renderer[alignTo], renderer);
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = wrapper.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:			if (element.namespaceURI === SVG_NS || renderer.forExport) {
+./app/assets/javascripts/apps/admin/highcharts.js:						// Canvas renderer and legacy IE in export mode
+./app/assets/javascripts/apps/admin/highcharts.js:			if (renderer.isSVG) {
+./app/assets/javascripts/apps/admin/highcharts.js:	 *    to append the element to the renderer.box.
+./app/assets/javascripts/apps/admin/highcharts.js:		var renderer = this.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:			parentWrapper = parent || renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:			parentNode = parentWrapper.element || renderer.box,
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer.buildText(this);
+./app/assets/javascripts/apps/admin/highcharts.js:			erase(wrapper.renderer.alignedObjects, wrapper);
+./app/assets/javascripts/apps/admin/highcharts.js: * The default SVG renderer
+./app/assets/javascripts/apps/admin/highcharts.js:		var renderer = this,
+./app/assets/javascripts/apps/admin/highcharts.js:		boxWrapper = renderer.createElement('svg')
+./app/assets/javascripts/apps/admin/highcharts.js:		renderer.isSVG = true;
+./app/assets/javascripts/apps/admin/highcharts.js:		renderer.box = boxWrapper.element;
+./app/assets/javascripts/apps/admin/highcharts.js:		renderer.boxWrapper = boxWrapper;
+./app/assets/javascripts/apps/admin/highcharts.js:		renderer.alignedObjects = [];
+./app/assets/javascripts/apps/admin/highcharts.js:		renderer.url = (isFirefox || isWebKit) && doc.getElementsByTagName('base').length ?
+./app/assets/javascripts/apps/admin/highcharts.js:		renderer.defs = this.createElement('defs').add();
+./app/assets/javascripts/apps/admin/highcharts.js:		renderer.forExport = forExport;
+./app/assets/javascripts/apps/admin/highcharts.js:		renderer.gradients = {}; // Object where gradient SvgElements are stored
+./app/assets/javascripts/apps/admin/highcharts.js:		renderer.setSize(width, height, false);
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer.subPixelFix = subPixelFix = function () {
+./app/assets/javascripts/apps/admin/highcharts.js:	 * Detect whether the renderer is hidden. This happens when one of the parent elements
+./app/assets/javascripts/apps/admin/highcharts.js:	 * Destroys the renderer and its allocated members.
+./app/assets/javascripts/apps/admin/highcharts.js:		var renderer = this,
+./app/assets/javascripts/apps/admin/highcharts.js:			rendererDefs = renderer.defs;
+./app/assets/javascripts/apps/admin/highcharts.js:		renderer.box = null;
+./app/assets/javascripts/apps/admin/highcharts.js:		renderer.boxWrapper = renderer.boxWrapper.destroy();
+./app/assets/javascripts/apps/admin/highcharts.js:		destroyObjectProperties(renderer.gradients || {});
+./app/assets/javascripts/apps/admin/highcharts.js:		renderer.gradients = null;
+./app/assets/javascripts/apps/admin/highcharts.js:		if (rendererDefs) {
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer.defs = rendererDefs.destroy();
+./app/assets/javascripts/apps/admin/highcharts.js:		if (renderer.subPixelFix) {
+./app/assets/javascripts/apps/admin/highcharts.js:			removeEvent(win, 'resize', renderer.subPixelFix);
+./app/assets/javascripts/apps/admin/highcharts.js:		renderer.alignedObjects = null;
+./app/assets/javascripts/apps/admin/highcharts.js:	 * Dummy function for use in canvas renderer
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = this,
+./app/assets/javascripts/apps/admin/highcharts.js:						if (!hasSVG && renderer.forExport) {
+./app/assets/javascripts/apps/admin/highcharts.js:							textLineHeight || renderer.fontMetrics(
+./app/assets/javascripts/apps/admin/highcharts.js:		var renderer = this,
+./app/assets/javascripts/apps/admin/highcharts.js:			alignedObjects = renderer.alignedObjects,
+./app/assets/javascripts/apps/admin/highcharts.js:		renderer.width = width;
+./app/assets/javascripts/apps/admin/highcharts.js:		renderer.height = height;
+./app/assets/javascripts/apps/admin/highcharts.js:		renderer.boxWrapper[pick(animate, true) ? 'animate' : 'attr']({
+./app/assets/javascripts/apps/admin/highcharts.js:		var renderer = this,
+./app/assets/javascripts/apps/admin/highcharts.js:			gradients = renderer.gradients;
+./app/assets/javascripts/apps/admin/highcharts.js:			// Check if a gradient object with the same config object is created within this renderer
+./app/assets/javascripts/apps/admin/highcharts.js:				gradients[key] = gradientObject = renderer.createElement(gradName)
+./app/assets/javascripts/apps/admin/highcharts.js:					.add(renderer.defs);
+./app/assets/javascripts/apps/admin/highcharts.js:					stopObject = renderer.createElement('stop').attr({
+./app/assets/javascripts/apps/admin/highcharts.js:			return 'url(' + renderer.url + '#' + id + ')';
+./app/assets/javascripts/apps/admin/highcharts.js:	 * @param {Boolean} useHTML Use HTML to render the text
+./app/assets/javascripts/apps/admin/highcharts.js:		var renderer = this,
+./app/assets/javascripts/apps/admin/highcharts.js:			fakeSVG = useCanVG || (!hasSVG && renderer.forExport),
+./app/assets/javascripts/apps/admin/highcharts.js:		if (useHTML && !renderer.forExport) {
+./app/assets/javascripts/apps/admin/highcharts.js:			return renderer.html(str, x, y);
+./app/assets/javascripts/apps/admin/highcharts.js:		wrapper = renderer.createElement('text')
+./app/assets/javascripts/apps/admin/highcharts.js:	 * Create HTML text node. This is used by the VML renderer as well as the SVG
+./app/assets/javascripts/apps/admin/highcharts.js:	 * renderer through the useHTML option.
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = wrapper.renderer;
+./app/assets/javascripts/apps/admin/highcharts.js:		if (renderer.isSVG) {
+./app/assets/javascripts/apps/admin/highcharts.js:					container = renderer.box.parentNode,
+./app/assets/javascripts/apps/admin/highcharts.js:	 *    like renderer.text, or to the upper border of the rectangle.
+./app/assets/javascripts/apps/admin/highcharts.js:		var renderer = this,
+./app/assets/javascripts/apps/admin/highcharts.js:			wrapper = renderer.g(className),
+./app/assets/javascripts/apps/admin/highcharts.js:			text = renderer.text('', 0, 0, useHTML)
+./app/assets/javascripts/apps/admin/highcharts.js:			baselineOffset = padding + renderer.fontMetrics(style && style.fontSize).b;
+./app/assets/javascripts/apps/admin/highcharts.js:						renderer.symbol(shape, boxX, boxY, wrapper.width, wrapper.height) :
+./app/assets/javascripts/apps/admin/highcharts.js:						renderer.rect(boxX, boxY, wrapper.width, wrapper.height, 0, deferredAttr[STROKE_WIDTH]);
+./app/assets/javascripts/apps/admin/highcharts.js:				wrapper = renderer = updateBoxSize = updateTextPadding = boxAttr = getSizeAfterAdd = null;
+./app/assets/javascripts/apps/admin/highcharts.js:// general renderer
+./app/assets/javascripts/apps/admin/highcharts.js:	 * @param {Object} renderer
+./app/assets/javascripts/apps/admin/highcharts.js:	init: function (renderer, nodeName) {
+./app/assets/javascripts/apps/admin/highcharts.js:				: renderer.prepVML(markup);
+./app/assets/javascripts/apps/admin/highcharts.js:		wrapper.renderer = renderer;
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = wrapper.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:			box = renderer.box,
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer.invertChild(element, parentNode);
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = wrapper.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:						value = renderer.color(value, element, key);
+./app/assets/javascripts/apps/admin/highcharts.js:							createElement(renderer.prepVML(['<stroke/>']), null, null, element);
+./app/assets/javascripts/apps/admin/highcharts.js:							value = renderer.color(value, element, key, wrapper);
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = this.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:				shadow = createElement(renderer.prepVML(markup),
+./app/assets/javascripts/apps/admin/highcharts.js:				createElement(renderer.prepVML(markup), null, null, shadow);
+./app/assets/javascripts/apps/admin/highcharts.js: * The VML renderer
+./app/assets/javascripts/apps/admin/highcharts.js:		var renderer = this,
+./app/assets/javascripts/apps/admin/highcharts.js:		renderer.alignedObjects = [];
+./app/assets/javascripts/apps/admin/highcharts.js:		boxWrapper = renderer.createElement(DIV);
+./app/assets/javascripts/apps/admin/highcharts.js:		box.style.position = RELATIVE; // for freeform drawing using renderer directly
+./app/assets/javascripts/apps/admin/highcharts.js:		renderer.isVML = true;
+./app/assets/javascripts/apps/admin/highcharts.js:		renderer.box = box;
+./app/assets/javascripts/apps/admin/highcharts.js:		renderer.boxWrapper = boxWrapper;
+./app/assets/javascripts/apps/admin/highcharts.js:		renderer.setSize(width, height, false);
+./app/assets/javascripts/apps/admin/highcharts.js:	 * Detect whether the renderer is hidden. This happens when one of the parent elements
+./app/assets/javascripts/apps/admin/highcharts.js:		var renderer = this,
+./app/assets/javascripts/apps/admin/highcharts.js:					createElement(renderer.prepVML(markup), null, null, elem);
+./app/assets/javascripts/apps/admin/highcharts.js:	 * In the VML renderer, each child of an inverted div (group) is inverted
+./app/assets/javascripts/apps/admin/highcharts.js:	 * Symbol definitions that override the parent SVG renderer's symbols
+./app/assets/javascripts/apps/admin/highcharts.js:	// general renderer
+./app/assets/javascripts/apps/admin/highcharts.js:	 * the implementation from SvgRenderer will not be merged in until first render.
+./app/assets/javascripts/apps/admin/highcharts.js:	 * Handles on demand download of canvg rendering support.
+./app/assets/javascripts/apps/admin/highcharts.js:		// List of renderering calls
+./app/assets/javascripts/apps/admin/highcharts.js:			// Draw all pending render calls
+./app/assets/javascripts/apps/admin/highcharts.js:				// Register render call
+./app/assets/javascripts/apps/admin/highcharts.js: * General renderer
+./app/assets/javascripts/apps/admin/highcharts.js:		// set properties for access in render method
+./app/assets/javascripts/apps/admin/highcharts.js:					chart.renderer.text(
+./app/assets/javascripts/apps/admin/highcharts.js:	getMarkPath: function (x, y, tickLength, tickWidth, horiz, renderer) {
+./app/assets/javascripts/apps/admin/highcharts.js:		return renderer.crispLine([
+./app/assets/javascripts/apps/admin/highcharts.js:	render: function (index, old, opacity) {
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = chart.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:						renderer.path(gridLinePath)
+./app/assets/javascripts/apps/admin/highcharts.js:			markPath = tick.getMarkPath(x, y, tickLength, tickWidth * reverseCrisp, horiz, renderer);
+./app/assets/javascripts/apps/admin/highcharts.js:				tick.mark = renderer.path(
+./app/assets/javascripts/apps/admin/highcharts.js:	render: function () {
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = axis.chart.renderer;
+./app/assets/javascripts/apps/admin/highcharts.js:			plotLine.svgElem = svgElem = renderer.path(path)
+./app/assets/javascripts/apps/admin/highcharts.js:				plotLine.label = label = renderer.text(
+./app/assets/javascripts/apps/admin/highcharts.js:	render: function (group) {
+./app/assets/javascripts/apps/admin/highcharts.js:				this.axis.chart.renderer.text(str, 0, 0, options.useHTML)		// dummy positions, actual position updated with setOffset method in columnseries // docs: useHTML for stackLabels
+./app/assets/javascripts/apps/admin/highcharts.js:			chart.renderer.crispLine([M, x1, y1, L, x2, y2], lineWidth || 0);
+./app/assets/javascripts/apps/admin/highcharts.js:	 * Add a plot band or plot line after render time
+./app/assets/javascripts/apps/admin/highcharts.js:		var obj = new PlotLineOrBand(this, options).render(),
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = chart.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:		// For reuse in Axis.render
+./app/assets/javascripts/apps/admin/highcharts.js:			axis.gridGroup = renderer.g('grid')
+./app/assets/javascripts/apps/admin/highcharts.js:			axis.axisGroup = renderer.g('axis')
+./app/assets/javascripts/apps/admin/highcharts.js:			axis.labelGroup = renderer.g('axis-labels')
+./app/assets/javascripts/apps/admin/highcharts.js:				axis.axisTitle = renderer.text(
+./app/assets/javascripts/apps/admin/highcharts.js:		return chart.renderer.crispLine([
+./app/assets/javascripts/apps/admin/highcharts.js:	render: function () {
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = chart.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:					// render new ticks in old position
+./app/assets/javascripts/apps/admin/highcharts.js:						minorTicks[pos].render(null, true);
+./app/assets/javascripts/apps/admin/highcharts.js:					minorTicks[pos].render(null, false, 1);
+./app/assets/javascripts/apps/admin/highcharts.js:			// Major ticks. Pull out the first item and render it last so that
+./app/assets/javascripts/apps/admin/highcharts.js:						// render new ticks in old position
+./app/assets/javascripts/apps/admin/highcharts.js:							ticks[pos].render(i, true);
+./app/assets/javascripts/apps/admin/highcharts.js:						ticks[pos].render(i, false, 1);
+./app/assets/javascripts/apps/admin/highcharts.js:					ticks[-1].render(-1);
+./app/assets/javascripts/apps/admin/highcharts.js:						alternateBands[pos].render();
+./app/assets/javascripts/apps/admin/highcharts.js:					coll[pos].render(pos, false, 0);
+./app/assets/javascripts/apps/admin/highcharts.js:		// to render, these items are added outside the group.
+./app/assets/javascripts/apps/admin/highcharts.js:				axis.axisLine = renderer.path(linePath)
+./app/assets/javascripts/apps/admin/highcharts.js:					renderer.g('stack-labels')
+./app/assets/javascripts/apps/admin/highcharts.js:			// stackTotalGroup at every render call. See bug #506 and #516
+./app/assets/javascripts/apps/admin/highcharts.js:					oneStack[stackCategory].render(stackTotalGroup);
+./app/assets/javascripts/apps/admin/highcharts.js:		// render the axis
+./app/assets/javascripts/apps/admin/highcharts.js:		axis.render();
+./app/assets/javascripts/apps/admin/highcharts.js:			plotLine.render();
+./app/assets/javascripts/apps/admin/highcharts.js:		this.label = chart.renderer.label('', 0, 0, options.shape, null, null, options.useHTML, null, 'tooltip')
+./app/assets/javascripts/apps/admin/highcharts.js:						tooltip.crosshairs[i] = chart.renderer.path(path)
+./app/assets/javascripts/apps/admin/highcharts.js:			chart.trackerGroup = chart.renderer.g('tracker')
+./app/assets/javascripts/apps/admin/highcharts.js:					this.selectionMarker = chart.renderer.rect(
+./app/assets/javascripts/apps/admin/highcharts.js:		legend.render();
+./app/assets/javascripts/apps/admin/highcharts.js:	renderTitle: function () {
+./app/assets/javascripts/apps/admin/highcharts.js:				this.title = this.chart.renderer.label(titleOptions.text, padding - 3, padding - 4, null, null, null, null, null, 'legend-title')
+./app/assets/javascripts/apps/admin/highcharts.js:	renderItem: function (item) {
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = chart.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:			item.legendGroup = renderer.g('legend-item')
+./app/assets/javascripts/apps/admin/highcharts.js:			item.legendItem = li = renderer.text(
+./app/assets/javascripts/apps/admin/highcharts.js:	 * chart.render. If called after, it will only rearrange items instead
+./app/assets/javascripts/apps/admin/highcharts.js:	render: function () {
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = chart.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:			legend.group = legendGroup = renderer.g('legend')
+./app/assets/javascripts/apps/admin/highcharts.js:			legend.contentGroup = renderer.g()
+./app/assets/javascripts/apps/admin/highcharts.js:			legend.scrollGroup = renderer.g()
+./app/assets/javascripts/apps/admin/highcharts.js:			legend.clipRect = renderer.clipRect(0, 0, 9999, chart.chartHeight);
+./app/assets/javascripts/apps/admin/highcharts.js:		legend.renderTitle();
+./app/assets/javascripts/apps/admin/highcharts.js:		// render the items
+./app/assets/javascripts/apps/admin/highcharts.js:			legend.renderItem(item);
+./app/assets/javascripts/apps/admin/highcharts.js:				legend.box = box = renderer.rect(
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = chart.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:				this.nav = nav = renderer.g().attr({ zIndex: 1 }).add(this.group);
+./app/assets/javascripts/apps/admin/highcharts.js:				this.up = renderer.symbol('triangle', 0, 0, arrowSize, arrowSize)
+./app/assets/javascripts/apps/admin/highcharts.js:				this.pager = renderer.text('', 15, 10)
+./app/assets/javascripts/apps/admin/highcharts.js:				this.down = renderer.symbol('triangle-down', 0, 0, arrowSize, arrowSize)
+./app/assets/javascripts/apps/admin/highcharts.js:		//this.renderTo = UNDEFINED;
+./app/assets/javascripts/apps/admin/highcharts.js:		//this.renderToClone = UNDEFINED;
+./app/assets/javascripts/apps/admin/highcharts.js:	 * Initialize an individual series, called internally before render time
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = chart.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:			isHiddenChart = renderer.isHidden(),
+./app/assets/javascripts/apps/admin/highcharts.js:			legend.render();
+./app/assets/javascripts/apps/admin/highcharts.js:		renderer.draw();
+./app/assets/javascripts/apps/admin/highcharts.js:		this.resetZoomButton = chart.renderer.button(lang.resetZoom, null, null, function () { chart.zoomOut(); }, theme, states && states.hover)
+./app/assets/javascripts/apps/admin/highcharts.js:				chart[name] = chart.renderer.text(
+./app/assets/javascripts/apps/admin/highcharts.js:			renderTo = chart.renderToClone || chart.renderTo;
+./app/assets/javascripts/apps/admin/highcharts.js:		chart.containerWidth = adapterRun(renderTo, 'width');
+./app/assets/javascripts/apps/admin/highcharts.js:		chart.containerHeight = adapterRun(renderTo, 'height');
+./app/assets/javascripts/apps/admin/highcharts.js:	 * Create a clone of the chart's renderTo div and place it outside the viewport to allow
+./app/assets/javascripts/apps/admin/highcharts.js:	 * size computation on chart.render and chart.redraw
+./app/assets/javascripts/apps/admin/highcharts.js:		var clone = this.renderToClone,
+./app/assets/javascripts/apps/admin/highcharts.js:		// Destroy the clone and bring the container back to the real renderTo div
+./app/assets/javascripts/apps/admin/highcharts.js:				this.renderTo.appendChild(container);
+./app/assets/javascripts/apps/admin/highcharts.js:				delete this.renderToClone;
+./app/assets/javascripts/apps/admin/highcharts.js:				this.renderTo.removeChild(container); // do not clone this
+./app/assets/javascripts/apps/admin/highcharts.js:			this.renderToClone = clone = this.renderTo.cloneNode(0);
+./app/assets/javascripts/apps/admin/highcharts.js:			renderTo,
+./app/assets/javascripts/apps/admin/highcharts.js:		chart.renderTo = renderTo = optionsChart.renderTo;
+./app/assets/javascripts/apps/admin/highcharts.js:		if (isString(renderTo)) {
+./app/assets/javascripts/apps/admin/highcharts.js:			chart.renderTo = renderTo = doc.getElementById(renderTo);
+./app/assets/javascripts/apps/admin/highcharts.js:		// Display an error if the renderTo is wrong
+./app/assets/javascripts/apps/admin/highcharts.js:		if (!renderTo) {
+./app/assets/javascripts/apps/admin/highcharts.js:		oldChartIndex = pInt(attr(renderTo, indexAttrName));
+./app/assets/javascripts/apps/admin/highcharts.js:		attr(renderTo, indexAttrName, chart.index);
+./app/assets/javascripts/apps/admin/highcharts.js:		renderTo.innerHTML = '';
+./app/assets/javascripts/apps/admin/highcharts.js:		// state to determine the size, else the legend and tooltips won't render
+./app/assets/javascripts/apps/admin/highcharts.js:		if (!renderTo.offsetWidth) {
+./app/assets/javascripts/apps/admin/highcharts.js:			chart.renderToClone || renderTo
+./app/assets/javascripts/apps/admin/highcharts.js:		chart.renderer =
+./app/assets/javascripts/apps/admin/highcharts.js:			// If we need canvg library, extend and configure the renderer
+./app/assets/javascripts/apps/admin/highcharts.js:			chart.renderer.create(chart, container, chartWidth, chartHeight);
+./app/assets/javascripts/apps/admin/highcharts.js:	 * Calculate margins by rendering axis labels in a preliminary position. Title,
+./app/assets/javascripts/apps/admin/highcharts.js:	 * subtitle and legend have already been rendered at this stage, but will be
+./app/assets/javascripts/apps/admin/highcharts.js:		// pre-render axes to get labels offset width
+./app/assets/javascripts/apps/admin/highcharts.js:			renderTo = chart.renderTo,
+./app/assets/javascripts/apps/admin/highcharts.js:			var width = optionsChart.width || adapterRun(renderTo, 'width'),
+./app/assets/javascripts/apps/admin/highcharts.js:				height = optionsChart.height || adapterRun(renderTo, 'height'),
+./app/assets/javascripts/apps/admin/highcharts.js:		chart.renderer.setSize(chartWidth, chartHeight, animation);
+./app/assets/javascripts/apps/admin/highcharts.js:	 * Set the public chart properties. This is done before and after the pre-render
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = chart.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:		chart.spacingBox = renderer.spacingBox = {
+./app/assets/javascripts/apps/admin/highcharts.js:		chart.plotBox = renderer.plotBox = {
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = chart.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:				chart.chartBackground = renderer.rect(mgn / 2, mgn / 2, chartWidth - mgn, chartHeight - mgn,
+./app/assets/javascripts/apps/admin/highcharts.js:				chart.plotBackground = renderer.rect(plotLeft, plotTop, plotWidth, plotHeight, 0)
+./app/assets/javascripts/apps/admin/highcharts.js:				chart.plotBGImage = renderer.image(plotBackgroundImage, plotLeft, plotTop, plotWidth, plotHeight)
+./app/assets/javascripts/apps/admin/highcharts.js:			chart.clipRect = renderer.clipRect(clipBox);
+./app/assets/javascripts/apps/admin/highcharts.js:				chart.plotBorder = renderer.rect(plotLeft, plotTop, plotWidth, plotHeight, 0, plotBorderWidth)
+./app/assets/javascripts/apps/admin/highcharts.js:	render: function () {
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = chart.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:		// Get margins by pre-rendering axes
+./app/assets/javascripts/apps/admin/highcharts.js:				axis.render();
+./app/assets/javascripts/apps/admin/highcharts.js:			chart.seriesGroup = renderer.g('series-group')
+./app/assets/javascripts/apps/admin/highcharts.js:			serie.render();
+./app/assets/javascripts/apps/admin/highcharts.js:				renderer.text(
+./app/assets/javascripts/apps/admin/highcharts.js:			chart.credits = renderer.text(
+./app/assets/javascripts/apps/admin/highcharts.js:		chart.renderTo.removeAttribute('data-highcharts-chart');
+./app/assets/javascripts/apps/admin/highcharts.js:				'rangeSelector', 'legend', 'resetZoomButton', 'tooltip', 'renderer'], function (name) {
+./app/assets/javascripts/apps/admin/highcharts.js:				// Delay rendering until canvg library is downloaded and ready
+./app/assets/javascripts/apps/admin/highcharts.js:	 * Prepare for first rendering after all data are loaded
+./app/assets/javascripts/apps/admin/highcharts.js:		// Check whether the chart is ready to render
+./app/assets/javascripts/apps/admin/highcharts.js:		// Run an early event after the container and renderer are established
+./app/assets/javascripts/apps/admin/highcharts.js:		// Run an event after axes and series are initialized, but before render. At this stage,
+./app/assets/javascripts/apps/admin/highcharts.js:		// those before rendering. Used in Highstock.
+./app/assets/javascripts/apps/admin/highcharts.js:		chart.render();
+./app/assets/javascripts/apps/admin/highcharts.js:		chart.renderer.draw();
+./app/assets/javascripts/apps/admin/highcharts.js:		// If the chart was rendered outside the top container, put it back in
+./app/assets/javascripts/apps/admin/highcharts.js:					series.stateMarkerGraphic = stateMarkerGraphic = chart.renderer.symbol(
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = this.chart.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:			this.legendLine = renderer.path([
+./app/assets/javascripts/apps/admin/highcharts.js:			this.legendSymbol = legendSymbol = renderer.symbol(
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = chart.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:				chart[sharedClipKey] = clipRect = renderer.clipRect(
+./app/assets/javascripts/apps/admin/highcharts.js:				chart[sharedClipKey + 'm'] = markerClipRect = renderer.clipRect(
+./app/assets/javascripts/apps/admin/highcharts.js:						point.graphic = graphic = chart.renderer.symbol(
+./app/assets/javascripts/apps/admin/highcharts.js:						dataLabel = point.dataLabel = series.chart.renderer[rotation ? 'text' : 'label']( // labels don't support rotation
+./app/assets/javascripts/apps/admin/highcharts.js:				(chart.renderer.isSVG ? 'inherit' : VISIBLE) :
+./app/assets/javascripts/apps/admin/highcharts.js:				series[graphKey] = series.chart.renderer.path(graphPath)
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = chart.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:			if (chart.inverted && renderer.isVML) {
+./app/assets/javascripts/apps/admin/highcharts.js:				this.posClip = posClip = renderer.clipRect(posAttr);
+./app/assets/javascripts/apps/admin/highcharts.js:				this.negClip = negClip = renderer.clipRect(negAttr);
+./app/assets/javascripts/apps/admin/highcharts.js:		// On subsequent render and redraw, just do setInvert without setting up events again
+./app/assets/javascripts/apps/admin/highcharts.js:			this[prop] = group = chart.renderer.g(name)
+./app/assets/javascripts/apps/admin/highcharts.js:	render: function () {
+./app/assets/javascripts/apps/admin/highcharts.js:			wasDirtyData = series.isDirtyData, // cache it here as it is set to false in render, but used after
+./app/assets/javascripts/apps/admin/highcharts.js:		series.render();
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = chart.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:			series.tracker = tracker = renderer.path(trackerPath)
+./app/assets/javascripts/apps/admin/highcharts.js:				series[areaKey] = series.chart.renderer.path(areaPath)
+./app/assets/javascripts/apps/admin/highcharts.js:		item.legendSymbol = this.chart.renderer.rect(
+./app/assets/javascripts/apps/admin/highcharts.js:			this.chart.renderer.circle(leftContX + this.chart.plotLeft, leftContY + this.chart.plotTop, 2)
+./app/assets/javascripts/apps/admin/highcharts.js:			this.chart.renderer.path(['M', leftContX + this.chart.plotLeft, leftContY + this.chart.plotTop,
+./app/assets/javascripts/apps/admin/highcharts.js:			this.chart.renderer.circle(rightContX + this.chart.plotLeft, rightContY + this.chart.plotTop, 2)
+./app/assets/javascripts/apps/admin/highcharts.js:			this.chart.renderer.path(['M', rightContX + this.chart.plotLeft, rightContY + this.chart.plotTop,
+./app/assets/javascripts/apps/admin/highcharts.js:			point.shapeArgs = shapeArgs = chart.renderer.Element.prototype.crisp.call(0, borderWidth, barX, barY, barW, barH);
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = series.chart.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:					point.graphic = graphic = renderer[point.shapeType](shapeArgs)
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = chart.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:						renderer[point.shapeType](shapeArgs)
+./app/assets/javascripts/apps/admin/highcharts.js:	render: function () {
+./app/assets/javascripts/apps/admin/highcharts.js:			renderer = chart.renderer,
+./app/assets/javascripts/apps/admin/highcharts.js:				shadowGroup = point.shadowGroup = renderer.g('shadow')
+./app/assets/javascripts/apps/admin/highcharts.js:				group = point.group = renderer.g('point')
+./app/assets/javascripts/apps/admin/highcharts.js:				point.graphic = graphic = renderer.arc(shapeArgs)
+./app/assets/javascripts/apps/admin/highcharts.js:						chart.renderer.rect(slotX, slotY - 7, 100, labelHeight, 1)
+./app/assets/javascripts/apps/admin/highcharts.js:						chart.renderer.text('Slot '+ (slots.length - 1), slotX, slotY + 4)
+./app/assets/javascripts/apps/admin/highcharts.js:							point.connector = connector = series.chart.renderer.path(connectorPath).attr({
+./app/assets/javascripts/app/popup_requests.js.coffee:render_properties_on_map = (properties) ->
+./app/assets/javascripts/app/popup_requests.js.coffee:  render_properties_on_map(property_locations)
+./app/assets/javascripts/libs/underscore.js:      var render = new Function(settings.variable || 'obj', '_', source);
+./app/assets/javascripts/libs/underscore.js:    if (data) return render(data, _);
+./app/assets/javascripts/libs/underscore.js:      return render.call(this, data, _);
+./app/assets/javascripts/libs/daterangepicker.js:            this.container.find('.calendar.left').html(this.renderCalendar(this.leftCalendar.calendar, this.startDate, this.minDate, this.endDate));
+./app/assets/javascripts/libs/daterangepicker.js:            this.container.find('.calendar.right').html(this.renderCalendar(this.rightCalendar.calendar, this.endDate, this.startDate, this.maxDate));
+./app/assets/javascripts/libs/daterangepicker.js:        renderCalendar: function (calendar, selected, minDate, maxDate) {
+./app/assets/javascripts/directives/map.js:      'renderMap': '='
+./app/assets/javascripts/directives/map.js:      scope.$watch('renderMap', function() {
+./app/assets/javascripts/directives/map.js:        if (scope.renderMap) {
+./app/helpers/calendar_helper.rb:    render 'property_events/partials/month_link', month_date: month_date
+./app/helpers/calendar_helper.rb:    render 'property_events/partials/add_event_modal', id: text, date: date
+./app/helpers/calendar_helper.rb:        render 'property_events/partials/remove_event_modal', :event => event
+./config/environments/test.rb:  # Raise exceptions instead of rendering exception templates
+./config/initializers/devise.rb:  # Turn scoped views on. Before rendering "sessions/new", it will first check for
+./config/initializers/active_admin.rb:  # This setting changes the http method used when rendering the

@@ -1,0 +1,818 @@
+./vendor/assets/javascripts/angular-loader.js: * @typedef { {
+./lib/paperclip_processors/watermark.rb:    def initialize file, options = {}, attachment = nil
+./lib/paperclip_processors/watermark.rb:    def make
+./lib/paperclip_processors/watermark.rb:    def fromfile
+./lib/paperclip_processors/watermark.rb:    def tofile(destination)
+./lib/scoring_builder.rb:  def initialize
+./lib/scoring_builder.rb:  def check(name, check, weight = nil)
+./features/support/env.rb:        def initialize(*args)
+./test/lib/angular/angular-scenario.js:					// handle cases where value is null/undef or number
+./temp.txt:      def state_transitions
+./temp.txt:      def state_events
+./temp.txt:  def get_other_stake_holder(user_id)
+./db/migrate/20121017050034_create_admin_notes.rb:  def self.up
+./db/migrate/20121017050034_create_admin_notes.rb:  def self.down
+./db/migrate/20130125022912_create_mailboxer.mailboxer_engine.rb:  def self.up    
+./db/migrate/20130125022912_create_mailboxer.mailboxer_engine.rb:  def self.down
+./db/migrate/20130404101350_add_rightsignature_support_to_checklist_items.rb:  def change
+./db/migrate/20121116052537_create_photo_appointments.rb:  def change
+./db/migrate/20120906231814_delete_type.rb:  def change
+./db/migrate/20130624212416_create_demand_manager_clients.demand_manager.rb:  def change
+./db/migrate/20130423222423_create_property_categories.rb:  def change
+./db/migrate/20130409115854_create_booking_documents.rb:  def change
+./db/migrate/20130125022914_add_notification_code.mailboxer_engine.rb:  def self.up
+./db/migrate/20130125022914_add_notification_code.mailboxer_engine.rb:  def self.down
+./db/migrate/20130607215701_add_slug_to_case_studies.rb:  def change
+./db/migrate/20130624212421_rename_rfp_rank_to_status.demand_manager.rb:  def change
+./db/migrate/20121029234250_create_property_features.rb:  def change
+./db/migrate/20121030030455_add_index_to_property_features.rb:  def change
+./db/migrate/20130307080701_add_lockable_property_to_user.rb:  def change
+./db/migrate/20130529135755_add_marked_completed_at_to_photo_appointment.rb:  def change
+./db/migrate/20130419045745_create_user_activities.rb:  def change
+./db/migrate/20121126185127_add_slug_to_popup_requests.rb:  def change
+./db/migrate/20121101185328_add_category_to_property_features.rb:  def change
+./db/migrate/20130308125401_add_authentication_token_to_user.rb:  def change
+./db/migrate/20130507103207_add_utm_params_to_users.rb:  def change
+./db/migrate/20130910133657_add_proposal_card_id_to_booking.rb:  def up
+./db/migrate/20130910133657_add_proposal_card_id_to_booking.rb:  def down
+./db/migrate/20130328012601_add_space_size_to_popup_request.rb:  def change
+./db/migrate/20130607214252_add_company_id_to_case_studies.rb:  def change
+./db/migrate/20130624212417_create_demand_manager_rfps.demand_manager.rb:  def change
+./db/migrate/20130326231134_add_salesforce_fields_to_users.rb:  def up
+./db/migrate/20130326231134_add_salesforce_fields_to_users.rb:  def down
+./db/migrate/20130327232023_add_user_id_to_renter_geo_requests.rb:  def change
+./db/migrate/20130910133523_create_proposal_cards.rb:  def self.up
+./db/migrate/20130910133523_create_proposal_cards.rb:  def self.down
+./db/migrate/20120821170823_add_image_columns_to_property.rb:  def change
+./db/migrate/20130125022916_rename_receipts_read.mailboxer_engine.rb:  def up
+./db/migrate/20130125022916_rename_receipts_read.mailboxer_engine.rb:  def down
+./db/migrate/20130422192257_add_calendar_updated_at_to_properties.rb:  def change
+./db/migrate/20130624212429_add_hidden_at_to_demand_manager_rfp_properties.demand_manager.rb:  def change
+./db/migrate/20130904215533_add_total_price_to_property.rb:  def change
+./db/migrate/20121108031932_change_type_to_location_type.rb:  def up
+./db/migrate/20130409120425_create_booking_document_recipients.rb:  def change
+./db/migrate/20121207004313_add_rejected_at_to_popup_request_properties.rb:  def change
+./db/migrate/20130115220918_create_stripe_customers.rb:  def change
+./db/migrate/20130516123657_remove_sales_force_fields_from_user.rb:  def up
+./db/migrate/20130516123657_remove_sales_force_fields_from_user.rb:  def down
+./db/migrate/20130624212419_add_user_id_to_rfps.demand_manager.rb:  def change
+./db/migrate/20121125191748_create_popup_requests.rb:  def change
+./db/migrate/20120821164635_create_properties.rb:  def change
+./db/migrate/20130312182756_add_images_count_to_users.rb:  def change
+./db/migrate/20130415212518_add_fields_to_jobs.rb:  def change
+./db/migrate/20130409065141_add_guid_field_to_booking_property_checklist_item_responses.rb:  def change
+./db/migrate/20130306123513_rename_image_column_to_url_in_property_image.rb:  def up
+./db/migrate/20130306123513_rename_image_column_to_url_in_property_image.rb:  def down
+./db/migrate/20130607214440_remove_company_unused_fields_from_case_studies.rb:  def change
+./db/migrate/20130424103139_add_price_type_to_property.rb:  def change
+./db/migrate/20130603113244_create_case_studies.rb:  def change
+./db/migrate/20130918102548_map_new_states_to_existing_bookings.rb:  def up
+./db/migrate/20130918102548_map_new_states_to_existing_bookings.rb:  def down
+./db/migrate/20121029202555_change_live_to_true_by_default.rb:  def up
+./db/migrate/20120821165703_add_owner_column_to_property.rb:  def change
+./db/migrate/20130121185306_add_broker_id_to_bookings.rb:  def change
+./db/migrate/20121203210416_fix_counter_cache_on_popup_requests.rb:  def change
+./db/migrate/20121203202012_create_popup_request_state_transitions.rb:  def change
+./db/migrate/20120821190328_add_token_columns_to_user.rb:  def change
+./db/migrate/20130624212425_add_fields_to_demand_manager_clients.demand_manager.rb:  def change
+./db/migrate/20121017224210_acts_as_taggable_on_migration.rb:  def self.up
+./db/migrate/20121017224210_acts_as_taggable_on_migration.rb:  def self.down
+./db/migrate/20130624212420_add_rank_to_demand_manager_rfps.demand_manager.rb:  def change
+./db/migrate/20130624212430_add_popup_request_id_to_demand_manager_rfps.demand_manager.rb:  def change
+./db/migrate/20130114234437_create_booking_state_transitions.rb:  def change
+./db/migrate/20130108230946_add_new_fields_to_properties.rb:  def change
+./db/migrate/20121207004654_add_counters_to_popup_requests.rb:  def change
+./db/migrate/20130914111715_remove_redundent_columns_proposal_cards.rb:  def up
+./db/migrate/20130914111715_remove_redundent_columns_proposal_cards.rb:  def down
+./db/migrate/20121124200516_add_parent_to_location.rb:  def change
+./db/migrate/20130205210113_add_company_url_to_users.rb:  def change
+./db/migrate/20130306000109_add_slug_to_properties.rb:  def change
+./db/migrate/20130610213212_change_field_types_for_case_studies.rb:  def change
+./db/migrate/20130309013426_create_chats.rb:  def change
+./db/migrate/20121029232912_add_frontage_to_properties.rb:  def change
+./db/migrate/20130311103129_create_favorites.rb:  def change
+./db/migrate/20121115233033_add_fields_to_users.rb:  def change
+./db/migrate/20130326205620_add_salesforce_fields_to_bookings.rb:  def up
+./db/migrate/20130326205620_add_salesforce_fields_to_bookings.rb:  def down
+./db/migrate/20130326205619_add_salesforce_fields_to_properties.rb:  def up
+./db/migrate/20130326205619_add_salesforce_fields_to_properties.rb:  def down
+./db/migrate/20121112193947_create_property_events.rb:  def change
+./db/migrate/20130521203759_add_image_counter_cache_to_press_clippings.rb:  def change
+./db/migrate/20130521200009_create_press_clippings.rb:  def change
+./db/migrate/20120830184834_add_city_columns_to_user.rb:  def change
+./db/migrate/20130624212839_add_photo_type_to_images.rb:  def change
+./db/migrate/20130124003158_create_messages_table.rb:  def self.up
+./db/migrate/20130124003158_create_messages_table.rb:  def self.down
+./db/migrate/20130225025613_create_featured_properties.rb:  def change
+./db/migrate/20121108030358_create_locations.rb:  def change
+./db/migrate/20130424131751_remove_date_from_photo_appointment.rb:  def change
+./db/migrate/20130321073456_create_booking_property_checklist_item_responses.rb:  def change
+./db/migrate/20120906230416_add_title_columns_to_user.rb:  def change
+./db/migrate/20130624212426_create_demand_manager_notes.demand_manager.rb:  def change
+./db/migrate/20121019203838_enforce_requirements_on_properties.rb:  def up
+./db/migrate/20121019203838_enforce_requirements_on_properties.rb:  def down
+./db/migrate/20130414030312_create_marketing_channels.rb:  def change
+./db/migrate/20130807132730_change_zip_for_properties.rb:  def change
+./db/migrate/20130204053050_add_pricing_fields_to_bookings.rb:  def change
+./db/migrate/20130624212431_add_popup_request_id_to_demand_manager_clients.demand_manager.rb:  def change
+./db/migrate/20121212001658_remove_fields_from_users.rb:  def up
+./db/migrate/20121212001658_remove_fields_from_users.rb:  def down
+./db/migrate/20121018182331_add_lat_and_long_to_properties.rb:  def change
+./db/migrate/20130125022915_add_attachments.mailboxer_engine.rb:  def self.up
+./db/migrate/20130125022915_add_attachments.mailboxer_engine.rb:  def self.down
+./db/migrate/20130415211710_create_departments.rb:  def change
+./db/migrate/20121017050035_move_admin_notes_to_comments.rb:  def self.up
+./db/migrate/20121017050035_move_admin_notes_to_comments.rb:  def self.down
+./db/migrate/20121030002427_add_status_to_property_features.rb:  def change
+./db/migrate/20130327230441_create_renter_geo_requests.rb:  def change
+./db/migrate/20120830212740_add_message_columns_to_bookings.rb:  def change
+./db/migrate/20121026060416_change_more_columns_on_properties.rb:  def up
+./db/migrate/20121026060416_change_more_columns_on_properties.rb:  def down
+./db/migrate/20121203193419_add_state_to_popup_requests.rb:  def change
+./db/migrate/20130124003159_add_recipient_permanent_delete_and_sender_permanent_delete_to_messages.rb:  def self.up
+./db/migrate/20130124003159_add_recipient_permanent_delete_and_sender_permanent_delete_to_messages.rb:  def self.down
+./db/migrate/20130617143634_add_need_content_to_property.rb:  def change
+./db/migrate/20130624212428_create_demand_manager_companies.demand_manager.rb:  def change
+./db/migrate/20130307043654_create_property_checklist_items.rb:  def change
+./db/migrate/20121015203549_add_devise_to_users.rb:  def self.up
+./db/migrate/20121015203549_add_devise_to_users.rb:  def self.down
+./db/migrate/20130123185517_add_fields_to_booking_paperworks.rb:  def change
+./db/migrate/20130521221258_add_outlet_name_to_press_clippings.rb:  def change
+./db/migrate/20130116222545_add_stripe_charge_id_to_bookings.rb:  def change
+./db/migrate/20130328111019_create_photo_appointment_slots.rb:  def change
+./db/migrate/20130516132732_remove_salesforce_fields_from_properties.rb:  def up
+./db/migrate/20130516132732_remove_salesforce_fields_from_properties.rb:  def down
+./db/migrate/20130116210512_add_payment_processed_field_to_bookings.rb:  def change
+./db/migrate/20130423221958_add_metrics_fields_to_popup_requests.rb:  def change
+./db/migrate/20121022180952_add_fields_to_images.rb:  def change
+./db/migrate/20130304125557_add_filepicker_support_to_images.rb:  def change
+./db/migrate/20130624212418_create_demand_manager_rfp_properties.demand_manager.rb:  def change
+./db/migrate/20130327062545_add_company_id_to_users.rb:  def change
+./db/migrate/20130419095411_change_chat_content_storage_type.rb:  def change
+./db/migrate/20130215231546_add_sending_user_to_notifications.rb:  def change
+./db/migrate/20121205024744_add_popup_requests_to_users.rb:  def change
+./db/migrate/20130321052659_add_attachment_to_property_checklist_item.rb:  def self.up
+./db/migrate/20130321052659_add_attachment_to_property_checklist_item.rb:  def self.down
+./db/migrate/20130411192140_add_number_of_events_field_to_popup_requests.rb:  def change
+./db/migrate/20130515180836_create_searched_locations.rb:  def change
+./db/migrate/20121018201752_add_fields_to_properties.rb:  def change
+./db/migrate/20121203204200_add_counter_cache_to_popup_requests.rb:  def change  
+./db/migrate/20130327071440_add_salesforce_fields_to_companies.rb:  def up
+./db/migrate/20130327071440_add_salesforce_fields_to_companies.rb:  def down
+./db/migrate/20130125022843_devise_create_messaging_users.rb:  def change
+./db/migrate/20130516130541_remove_salesforce_fields_from_bookings.rb:  def up
+./db/migrate/20130516130541_remove_salesforce_fields_from_bookings.rb:  def down
+./db/migrate/20130412125039_add_need_photos_boolean_to_property.rb:  def change
+./db/migrate/20130624212423_create_demand_manager_contacts.demand_manager.rb:  def change
+./db/migrate/20121125195453_add_reference_id_to_popup_requests.rb:  def change
+./db/migrate/20121029203813_add_caption_to_image.rb:  def change
+./db/migrate/20130314123405_create_logs.rb:  def change
+./db/migrate/20130620094044_add_dirty_bit_for_broker_id_change_in_booking.rb:  def up
+./db/migrate/20130620094044_add_dirty_bit_for_broker_id_change_in_booking.rb:  def down
+./db/migrate/20130606175125_change_fields_in_case_study_to_text.rb:  def change
+./db/migrate/20121019203433_add_index_to_properties.rb:  def change
+./db/migrate/20121017050110_rolify_create_roles.rb:  def change
+./db/migrate/20130624212422_add_status_to_demand_manager_rfp_properties.demand_manager.rb:  def change
+./db/migrate/20130108204149_remove_old_photo_fields_from_properties.rb:  def up
+./db/migrate/20130108204149_remove_old_photo_fields_from_properties.rb:  def down
+./db/migrate/20130916114607_remove_broker_from_proposal_cards.rb:  def up
+./db/migrate/20130916114607_remove_broker_from_proposal_cards.rb:  def down
+./db/migrate/20130109002336_create_property_documents.rb:  def change
+./db/migrate/20130415211606_create_jobs.rb:  def change
+./db/migrate/20120821165135_create_users.rb:  def change
+./db/migrate/20130412231812_add_tracking_fields_to_objects.rb:  def change
+./db/migrate/20130114234309_add_state_to_booking.rb:  def change
+./db/migrate/20121022180206_create_images_table.rb:  def change
+./db/migrate/20130109211907_create_floor_plans.rb:  def change
+./db/migrate/20130624212424_add_primary_to_demand_manager_contacts.demand_manager.rb:  def change
+./db/migrate/20121029201259_add_image_processing_to_images.rb:  def change
+./db/migrate/20121023185615_add_live_to_properties.rb:  def change
+./db/migrate/20130401095345_add_accepted_at_to_photography_appointment.rb:  def change
+./db/migrate/20120821165535_create_bookings.rb:  def change
+./db/migrate/20130516132225_remove_salesforce_fields_from_companies.rb:  def up
+./db/migrate/20130516132225_remove_salesforce_fields_from_companies.rb:  def down
+./db/migrate/20130125022913_add_notified_object.mailboxer_engine.rb:  def self.up
+./db/migrate/20130125022913_add_notified_object.mailboxer_engine.rb:  def self.down
+./db/migrate/20130108224817_add_min_lease_to_properties.rb:  def change
+./db/migrate/20130624212427_change_fields_for_demand_manager_clients_and_demand_manager_rfps.demand_manager.rb:  def change
+./db/migrate/20130214182443_add_watermark_boolean_to_properties.rb:  def change
+./db/migrate/20130412112544_add_min_lease_amount_to_property.rb:  def change
+./db/migrate/20130904223117_update_total_price_for_properties.rb:  def up
+./db/migrate/20130904223117_update_total_price_for_properties.rb:  def down
+./db/migrate/20130409105135_fixed_time_and_complete_columns_in_photo_appointments.rb:  def up
+./db/migrate/20130409105135_fixed_time_and_complete_columns_in_photo_appointments.rb:  def down
+./db/migrate/20121206233831_add_fields_to_popup_request_properties.rb:  def change
+./db/migrate/20120902213505_add_length_column_to_bookings.rb:  def change
+./db/migrate/20130620094118_create_postgis_extension.rb:  def up
+./db/migrate/20130620094118_create_postgis_extension.rb:  def down
+./db/migrate/20121019202650_change_column_types_for_property.rb:  def up
+./db/migrate/20121019202650_change_column_types_for_property.rb:  def down
+./db/migrate/20121231003910_add_date_available_to_properties.rb:  def change
+./db/migrate/20130215085220_add_conversation_id_to_bookings.rb:  def change
+./db/migrate/20130205191304_add_counters_to_models.rb:  def change
+./db/migrate/20130620102445_add_location_to_property.rb:  def change
+./db/migrate/20130606224043_rename_columns_in_case_studies.rb:  def change
+./db/migrate/20130522123836_change_request_url_from_string_to_text.rb:  def change
+./db/migrate/20130426205342_create_estimated_values.rb:  def change
+./db/migrate/20130403151146_add_notes_field_to_photo_management.rb:  def change
+./db/migrate/20121231012014_default_live_to_false_on_properties.rb:  def up
+./db/migrate/20121231012014_default_live_to_false_on_properties.rb:  def down
+./db/migrate/20130414203821_create_versions.rb:  def self.up
+./db/migrate/20130414203821_create_versions.rb:  def self.down
+./db/migrate/20130205232737_add_reference_number_to_bookings.rb:  def change
+./db/migrate/20130507104255_add_guest_id_and_request_url_to_user_activities.rb:  def change
+./db/migrate/20121125204845_create_popup_request_properties.rb:  def change
+./db/migrate/20130918104434_map_existing_chats_to_messages.rb:  def up
+./db/migrate/20130918104434_map_existing_chats_to_messages.rb:  def down
+./db/migrate/20130411184413_add_missing_database_indexes.rb:  def change
+./db/migrate/20130603125803_create_pg_trigram_extension.rb:  def up
+./db/migrate/20130603125803_create_pg_trigram_extension.rb:  def down
+./db/migrate/20130305124247_add_filepicker_support_to_floor_plan.rb:  def change
+./db/migrate/20121116182733_create_companies.rb:  def change
+./db/migrate/20130607223507_add_images_counts.rb:  def change
+./db/migrate/20130423222453_add_property_category_id_to_property.rb:  def change
+./db/migrate/20130123012522_create_booking_paperworks.rb:  def change
+./db/migrate/20130305134556_add_filepicker_support_to_property_documents.rb:  def change
+./db/migrate/20120830193725_change_properties.rb:  def change
+./db/migrate/20130906054133_update_booking_prices.rb:  def up
+./db/migrate/20130906054133_update_booking_prices.rb:  def down
+./db/migrate/20130910133227_create_messages.rb:  def self.up
+./db/migrate/20130910133227_create_messages.rb:  def self.down
+./db/migrate/20121205031545_add_selected_to_popup_request_properties.rb:  def change
+./db/test_structure.sql:    SELECT (current_database())::sql_identifier AS udt_catalog, (nc.nspname)::sql_identifier AS udt_schema, (c.relname)::sql_identifier AS udt_name, (a.attname)::sql_identifier AS attribute_name, (a.attnum)::cardinal_number AS ordinal_position, (pg_get_expr(ad.adbin, ad.adrelid))::character_data AS attribute_default, (CASE WHEN (a.attnotnull OR ((t.typtype = 'd'::"char") AND t.typnotnull)) THEN 'NO'::text ELSE 'YES'::text END)::yes_or_no AS is_nullable, (CASE WHEN ((t.typelem <> (0)::oid) AND (t.typlen = (-1))) THEN 'ARRAY'::text WHEN (nt.nspname = 'pg_catalog'::name) THEN format_type(a.atttypid, NULL::integer) ELSE 'USER-DEFINED'::text END)::character_data AS data_type, (_pg_char_max_length(_pg_truetypid(a.*, t.*), _pg_truetypmod(a.*, t.*)))::cardinal_number AS character_maximum_length, (_pg_char_octet_length(_pg_truetypid(a.*, t.*), _pg_truetypmod(a.*, t.*)))::cardinal_number AS character_octet_length, (NULL::character varying)::sql_identifier AS character_set_catalog, (NULL::character varying)::sql_identifier AS character_set_schema, (NULL::character varying)::sql_identifier AS character_set_name, (CASE WHEN (nco.nspname IS NOT NULL) THEN current_database() ELSE NULL::name END)::sql_identifier AS collation_catalog, (nco.nspname)::sql_identifier AS collation_schema, (co.collname)::sql_identifier AS collation_name, (_pg_numeric_precision(_pg_truetypid(a.*, t.*), _pg_truetypmod(a.*, t.*)))::cardinal_number AS numeric_precision, (_pg_numeric_precision_radix(_pg_truetypid(a.*, t.*), _pg_truetypmod(a.*, t.*)))::cardinal_number AS numeric_precision_radix, (_pg_numeric_scale(_pg_truetypid(a.*, t.*), _pg_truetypmod(a.*, t.*)))::cardinal_number AS numeric_scale, (_pg_datetime_precision(_pg_truetypid(a.*, t.*), _pg_truetypmod(a.*, t.*)))::cardinal_number AS datetime_precision, (_pg_interval_type(_pg_truetypid(a.*, t.*), _pg_truetypmod(a.*, t.*)))::character_data AS interval_type, (NULL::integer)::cardinal_number AS interval_precision, (current_database())::sql_identifier AS attribute_udt_catalog, (nt.nspname)::sql_identifier AS attribute_udt_schema, (t.typname)::sql_identifier AS attribute_udt_name, (NULL::character varying)::sql_identifier AS scope_catalog, (NULL::character varying)::sql_identifier AS scope_schema, (NULL::character varying)::sql_identifier AS scope_name, (NULL::integer)::cardinal_number AS maximum_cardinality, (a.attnum)::sql_identifier AS dtd_identifier, ('NO'::character varying)::yes_or_no AS is_derived_reference_attribute FROM ((((pg_attribute a LEFT JOIN pg_attrdef ad ON (((a.attrelid = ad.adrelid) AND (a.attnum = ad.adnum)))) JOIN (pg_class c JOIN pg_namespace nc ON ((c.relnamespace = nc.oid))) ON ((a.attrelid = c.oid))) JOIN (pg_type t JOIN pg_namespace nt ON ((t.typnamespace = nt.oid))) ON ((a.atttypid = t.oid))) LEFT JOIN (pg_collation co JOIN pg_namespace nco ON ((co.collnamespace = nco.oid))) ON (((a.attcollation = co.oid) AND ((nco.nspname <> 'pg_catalog'::name) OR (co.collname <> 'default'::name))))) WHERE ((((a.attnum > 0) AND (NOT a.attisdropped)) AND (c.relkind = 'c'::"char")) AND (pg_has_role(c.relowner, 'USAGE'::text) OR has_type_privilege(c.reltype, 'USAGE'::text)));
+./db/test_structure.sql:    SELECT (current_database())::sql_identifier AS table_catalog, (nc.nspname)::sql_identifier AS table_schema, (c.relname)::sql_identifier AS table_name, (a.attname)::sql_identifier AS column_name, (a.attnum)::cardinal_number AS ordinal_position, (pg_get_expr(ad.adbin, ad.adrelid))::character_data AS column_default, (CASE WHEN (a.attnotnull OR ((t.typtype = 'd'::"char") AND t.typnotnull)) THEN 'NO'::text ELSE 'YES'::text END)::yes_or_no AS is_nullable, (CASE WHEN (t.typtype = 'd'::"char") THEN CASE WHEN ((bt.typelem <> (0)::oid) AND (bt.typlen = (-1))) THEN 'ARRAY'::text WHEN (nbt.nspname = 'pg_catalog'::name) THEN format_type(t.typbasetype, NULL::integer) ELSE 'USER-DEFINED'::text END ELSE CASE WHEN ((t.typelem <> (0)::oid) AND (t.typlen = (-1))) THEN 'ARRAY'::text WHEN (nt.nspname = 'pg_catalog'::name) THEN format_type(a.atttypid, NULL::integer) ELSE 'USER-DEFINED'::text END END)::character_data AS data_type, (_pg_char_max_length(_pg_truetypid(a.*, t.*), _pg_truetypmod(a.*, t.*)))::cardinal_number AS character_maximum_length, (_pg_char_octet_length(_pg_truetypid(a.*, t.*), _pg_truetypmod(a.*, t.*)))::cardinal_number AS character_octet_length, (_pg_numeric_precision(_pg_truetypid(a.*, t.*), _pg_truetypmod(a.*, t.*)))::cardinal_number AS numeric_precision, (_pg_numeric_precision_radix(_pg_truetypid(a.*, t.*), _pg_truetypmod(a.*, t.*)))::cardinal_number AS numeric_precision_radix, (_pg_numeric_scale(_pg_truetypid(a.*, t.*), _pg_truetypmod(a.*, t.*)))::cardinal_number AS numeric_scale, (_pg_datetime_precision(_pg_truetypid(a.*, t.*), _pg_truetypmod(a.*, t.*)))::cardinal_number AS datetime_precision, (_pg_interval_type(_pg_truetypid(a.*, t.*), _pg_truetypmod(a.*, t.*)))::character_data AS interval_type, (NULL::integer)::cardinal_number AS interval_precision, (NULL::character varying)::sql_identifier AS character_set_catalog, (NULL::character varying)::sql_identifier AS character_set_schema, (NULL::character varying)::sql_identifier AS character_set_name, (CASE WHEN (nco.nspname IS NOT NULL) THEN current_database() ELSE NULL::name END)::sql_identifier AS collation_catalog, (nco.nspname)::sql_identifier AS collation_schema, (co.collname)::sql_identifier AS collation_name, (CASE WHEN (t.typtype = 'd'::"char") THEN current_database() ELSE NULL::name END)::sql_identifier AS domain_catalog, (CASE WHEN (t.typtype = 'd'::"char") THEN nt.nspname ELSE NULL::name END)::sql_identifier AS domain_schema, (CASE WHEN (t.typtype = 'd'::"char") THEN t.typname ELSE NULL::name END)::sql_identifier AS domain_name, (current_database())::sql_identifier AS udt_catalog, (COALESCE(nbt.nspname, nt.nspname))::sql_identifier AS udt_schema, (COALESCE(bt.typname, t.typname))::sql_identifier AS udt_name, (NULL::character varying)::sql_identifier AS scope_catalog, (NULL::character varying)::sql_identifier AS scope_schema, (NULL::character varying)::sql_identifier AS scope_name, (NULL::integer)::cardinal_number AS maximum_cardinality, (a.attnum)::sql_identifier AS dtd_identifier, ('NO'::character varying)::yes_or_no AS is_self_referencing, ('NO'::character varying)::yes_or_no AS is_identity, (NULL::character varying)::character_data AS identity_generation, (NULL::character varying)::character_data AS identity_start, (NULL::character varying)::character_data AS identity_increment, (NULL::character varying)::character_data AS identity_maximum, (NULL::character varying)::character_data AS identity_minimum, (NULL::character varying)::yes_or_no AS identity_cycle, ('NEVER'::character varying)::character_data AS is_generated, (NULL::character varying)::character_data AS generation_expression, (CASE WHEN ((c.relkind = 'r'::"char") OR (((c.relkind = 'v'::"char") AND (EXISTS (SELECT 1 FROM pg_rewrite WHERE (((pg_rewrite.ev_class = c.oid) AND (pg_rewrite.ev_type = '2'::"char")) AND pg_rewrite.is_instead)))) AND (EXISTS (SELECT 1 FROM pg_rewrite WHERE (((pg_rewrite.ev_class = c.oid) AND (pg_rewrite.ev_type = '4'::"char")) AND pg_rewrite.is_instead))))) THEN 'YES'::text ELSE 'NO'::text END)::yes_or_no AS is_updatable FROM (((((pg_attribute a LEFT JOIN pg_attrdef ad ON (((a.attrelid = ad.adrelid) AND (a.attnum = ad.adnum)))) JOIN (pg_class c JOIN pg_namespace nc ON ((c.relnamespace = nc.oid))) ON ((a.attrelid = c.oid))) JOIN (pg_type t JOIN pg_namespace nt ON ((t.typnamespace = nt.oid))) ON ((a.atttypid = t.oid))) LEFT JOIN (pg_type bt JOIN pg_namespace nbt ON ((bt.typnamespace = nbt.oid))) ON (((t.typtype = 'd'::"char") AND (t.typbasetype = bt.oid)))) LEFT JOIN (pg_collation co JOIN pg_namespace nco ON ((co.collnamespace = nco.oid))) ON (((a.attcollation = co.oid) AND ((nco.nspname <> 'pg_catalog'::name) OR (co.collname <> 'default'::name))))) WHERE (((((NOT pg_is_other_temp_schema(nc.oid)) AND (a.attnum > 0)) AND (NOT a.attisdropped)) AND (c.relkind = ANY (ARRAY['r'::"char", 'v'::"char", 'f'::"char"]))) AND (pg_has_role(c.relowner, 'USAGE'::text) OR has_column_privilege(c.oid, a.attnum, 'SELECT, INSERT, UPDATE, REFERENCES'::text)));
+./db/test_structure.sql:    SELECT (current_database())::sql_identifier AS specific_catalog, (n.nspname)::sql_identifier AS specific_schema, ((((p.proname)::text || '_'::text) || (p.oid)::text))::sql_identifier AS specific_name, (current_database())::sql_identifier AS routine_catalog, (n.nspname)::sql_identifier AS routine_schema, (p.proname)::sql_identifier AS routine_name, ('FUNCTION'::character varying)::character_data AS routine_type, (NULL::character varying)::sql_identifier AS module_catalog, (NULL::character varying)::sql_identifier AS module_schema, (NULL::character varying)::sql_identifier AS module_name, (NULL::character varying)::sql_identifier AS udt_catalog, (NULL::character varying)::sql_identifier AS udt_schema, (NULL::character varying)::sql_identifier AS udt_name, (CASE WHEN ((t.typelem <> (0)::oid) AND (t.typlen = (-1))) THEN 'ARRAY'::text WHEN (nt.nspname = 'pg_catalog'::name) THEN format_type(t.oid, NULL::integer) ELSE 'USER-DEFINED'::text END)::character_data AS data_type, (NULL::integer)::cardinal_number AS character_maximum_length, (NULL::integer)::cardinal_number AS character_octet_length, (NULL::character varying)::sql_identifier AS character_set_catalog, (NULL::character varying)::sql_identifier AS character_set_schema, (NULL::character varying)::sql_identifier AS character_set_name, (NULL::character varying)::sql_identifier AS collation_catalog, (NULL::character varying)::sql_identifier AS collation_schema, (NULL::character varying)::sql_identifier AS collation_name, (NULL::integer)::cardinal_number AS numeric_precision, (NULL::integer)::cardinal_number AS numeric_precision_radix, (NULL::integer)::cardinal_number AS numeric_scale, (NULL::integer)::cardinal_number AS datetime_precision, (NULL::character varying)::character_data AS interval_type, (NULL::integer)::cardinal_number AS interval_precision, (current_database())::sql_identifier AS type_udt_catalog, (nt.nspname)::sql_identifier AS type_udt_schema, (t.typname)::sql_identifier AS type_udt_name, (NULL::character varying)::sql_identifier AS scope_catalog, (NULL::character varying)::sql_identifier AS scope_schema, (NULL::character varying)::sql_identifier AS scope_name, (NULL::integer)::cardinal_number AS maximum_cardinality, (0)::sql_identifier AS dtd_identifier, (CASE WHEN (l.lanname = 'sql'::name) THEN 'SQL'::text ELSE 'EXTERNAL'::text END)::character_data AS routine_body, (CASE WHEN pg_has_role(p.proowner, 'USAGE'::text) THEN p.prosrc ELSE NULL::text END)::character_data AS routine_definition, (CASE WHEN (l.lanname = 'c'::name) THEN p.prosrc ELSE NULL::text END)::character_data AS external_name, (upper((l.lanname)::text))::character_data AS external_language, ('GENERAL'::character varying)::character_data AS parameter_style, (CASE WHEN (p.provolatile = 'i'::"char") THEN 'YES'::text ELSE 'NO'::text END)::yes_or_no AS is_deterministic, ('MODIFIES'::character varying)::character_data AS sql_data_access, (CASE WHEN p.proisstrict THEN 'YES'::text ELSE 'NO'::text END)::yes_or_no AS is_null_call, (NULL::character varying)::character_data AS sql_path, ('YES'::character varying)::yes_or_no AS schema_level_routine, (0)::cardinal_number AS max_dynamic_result_sets, (NULL::character varying)::yes_or_no AS is_user_defined_cast, (NULL::character varying)::yes_or_no AS is_implicitly_invocable, (CASE WHEN p.prosecdef THEN 'DEFINER'::text ELSE 'INVOKER'::text END)::character_data AS security_type, (NULL::character varying)::sql_identifier AS to_sql_specific_catalog, (NULL::character varying)::sql_identifier AS to_sql_specific_schema, (NULL::character varying)::sql_identifier AS to_sql_specific_name, ('NO'::character varying)::yes_or_no AS as_locator, (NULL::timestamp with time zone)::time_stamp AS created, (NULL::timestamp with time zone)::time_stamp AS last_altered, (NULL::character varying)::yes_or_no AS new_savepoint_level, ('NO'::character varying)::yes_or_no AS is_udt_dependent, (NULL::character varying)::character_data AS result_cast_from_data_type, (NULL::character varying)::yes_or_no AS result_cast_as_locator, (NULL::integer)::cardinal_number AS result_cast_char_max_length, (NULL::integer)::cardinal_number AS result_cast_char_octet_length, (NULL::character varying)::sql_identifier AS result_cast_char_set_catalog, (NULL::character varying)::sql_identifier AS result_cast_char_set_schema, (NULL::character varying)::sql_identifier AS result_cast_character_set_name, (NULL::character varying)::sql_identifier AS result_cast_collation_catalog, (NULL::character varying)::sql_identifier AS result_cast_collation_schema, (NULL::character varying)::sql_identifier AS result_cast_collation_name, (NULL::integer)::cardinal_number AS result_cast_numeric_precision, (NULL::integer)::cardinal_number AS result_cast_numeric_precision_radix, (NULL::integer)::cardinal_number AS result_cast_numeric_scale, (NULL::integer)::cardinal_number AS result_cast_datetime_precision, (NULL::character varying)::character_data AS result_cast_interval_type, (NULL::integer)::cardinal_number AS result_cast_interval_precision, (NULL::character varying)::sql_identifier AS result_cast_type_udt_catalog, (NULL::character varying)::sql_identifier AS result_cast_type_udt_schema, (NULL::character varying)::sql_identifier AS result_cast_type_udt_name, (NULL::character varying)::sql_identifier AS result_cast_scope_catalog, (NULL::character varying)::sql_identifier AS result_cast_scope_schema, (NULL::character varying)::sql_identifier AS result_cast_scope_name, (NULL::integer)::cardinal_number AS result_cast_maximum_cardinality, (NULL::character varying)::sql_identifier AS result_cast_dtd_identifier FROM pg_namespace n, pg_proc p, pg_language l, pg_type t, pg_namespace nt WHERE (((((n.oid = p.pronamespace) AND (p.prolang = l.oid)) AND (p.prorettype = t.oid)) AND (t.typnamespace = nt.oid)) AND (pg_has_role(p.proowner, 'USAGE'::text) OR has_function_privilege(p.oid, 'EXECUTE'::text)));
+./db/test_structure.sql:CREATE TABLE pg_attrdef (
+./db/test_structure.sql:    atthasdef boolean NOT NULL,
+./db/test_structure.sql:    SELECT n.nspname AS schemaname, c.relname AS tablename, i.relname AS indexname, t.spcname AS tablespace, pg_get_indexdef(i.oid) AS indexdef FROM ((((pg_index x JOIN pg_class c ON ((c.oid = x.indrelid))) JOIN pg_class i ON ((i.oid = x.indexrelid))) LEFT JOIN pg_namespace n ON ((n.oid = c.relnamespace))) LEFT JOIN pg_tablespace t ON ((t.oid = i.reltablespace))) WHERE ((c.relkind = 'r'::"char") AND (i.relkind = 'i'::"char"));
+./db/test_structure.sql:    prosecdef boolean NOT NULL,
+./db/test_structure.sql:CREATE UNIQUE INDEX pg_attrdef_adrelid_adnum_index ON pg_attrdef USING btree (adrelid, adnum);
+./db/test_structure.sql:CREATE UNIQUE INDEX pg_attrdef_oid_index ON pg_attrdef USING btree (oid);
+./app/mailers/user_mailer.rb:  def renter_welcome(user_id)
+./app/mailers/user_mailer.rb:  def renter_welcome_with_booking(user_id, booking_id)
+./app/mailers/user_mailer.rb:  def broker_welcome(user_id)
+./app/mailers/user_mailer.rb:  def broker_welcome_with_property(user_id, property_id)
+./app/mailers/request_funnel_mailer.rb:  def new_popup_request(popup_request_id)
+./app/mailers/request_funnel_mailer.rb:  def new_property_posted(property_id)
+./app/mailers/property_mailer.rb:  def email_to_a_friend(user_id, email, property_id)
+./app/mailers/photography_mailer.rb:  def photo_appointment_slot_booking_mail_broker(broker_id, photographer_id)
+./app/mailers/photography_mailer.rb:  def photo_appointment_slot_booking_mail_photographer(broker_id, photographer_id)
+./app/mailers/photography_mailer.rb:  def reminder_email_to_photographer(photographer_id)
+./app/mailers/photography_mailer.rb:  def reminder_email_to_broker(broker_id)
+./app/mailers/chat_mailer.rb:  def new_chat_message_for_broker(sender_id, receiver_id)
+./app/mailers/popup_request_mailer.rb:  def new_popup_request(user_id, popup_request_id)
+./app/datatables/properties_datatable.rb:  def initialize(view)
+./app/datatables/properties_datatable.rb:  def as_json(options = {})
+./app/services/customer_io_service.rb:  def initialize(user_id, action, attributes={})
+./app/services/customer_io_service.rb:  def identify_user
+./app/services/customer_io_service.rb:  def track
+./app/services/analytics_service.rb:  def initialize(user_id, action, attributes={})
+./app/services/analytics_service.rb:  def customer_io_identify_user
+./app/services/analytics_service.rb:  def customer_io_track
+./app/services/analytics_service.rb:  def self.mixpanel
+./app/services/analytics_service.rb:  def self.mixpanel_track_guest(name)
+./app/services/analytics_service.rb:  def self.mixpanel_set_and_track(name, properties, user_id)
+./app/services/analytics_service.rb:  def self.mixpanel_track(name, properties, email)
+./app/services/acts_as_hipchat.rb:    def set_hipchat_room(room)
+./app/services/acts_as_hipchat.rb:  def send_hipchat_message
+./app/controllers/users_controller.rb:  def edit
+./app/controllers/users_controller.rb:  def saved_properties
+./app/controllers/users_controller.rb:  def update
+./app/controllers/users_controller.rb:  def show
+./app/controllers/users_controller.rb:  def user_properties_with_state
+./app/controllers/users_controller.rb:  def payments
+./app/controllers/properties_controller.rb:  def index
+./app/controllers/properties_controller.rb:  def getCities
+./app/controllers/properties_controller.rb:  def show
+./app/controllers/properties_controller.rb:  def search_nearby
+./app/controllers/properties_controller.rb:  def price
+./app/controllers/properties_controller.rb:  def new
+./app/controllers/properties_controller.rb:  def reorder_images
+./app/controllers/properties_controller.rb:  def update_images_order
+./app/controllers/properties_controller.rb:  def toggle_status
+./app/controllers/properties_controller.rb:  def photo_appointment_scheduling
+./app/controllers/properties_controller.rb:  def submit_photo_appointments
+./app/controllers/properties_controller.rb:  def edit
+./app/controllers/properties_controller.rb:  def create
+./app/controllers/properties_controller.rb:  def update
+./app/controllers/properties_controller.rb:  def additional_information
+./app/controllers/properties_controller.rb:  def update_additional_information
+./app/controllers/properties_controller.rb:  def broker_modal
+./app/controllers/properties_controller.rb:  def manage_calendar
+./app/controllers/properties_controller.rb:  def successfully_update_property(property)
+./app/controllers/properties_controller.rb:  def successfully_create_property(property)
+./app/controllers/properties_controller.rb:  def track_property_actions(property, message)
+./app/controllers/properties_controller.rb:  def nearby_properties(property)
+./app/controllers/properties_controller.rb:  def mixpanel_track_property(property)
+./app/controllers/email_controller.rb:  def subscribe
+./app/controllers/email_controller.rb:  def thanks
+./app/controllers/property_events_controller.rb:  def create
+./app/controllers/property_events_controller.rb:  def destroy
+./app/controllers/bookings_controller.rb:  def show; end
+./app/controllers/bookings_controller.rb:  def create
+./app/controllers/bookings_controller.rb:  def continue_booking
+./app/controllers/bookings_controller.rb:  def index
+./app/controllers/bookings_controller.rb:  def update
+./app/controllers/bookings_controller.rb:  def submit_booking
+./app/controllers/bookings_controller.rb:  def booking_confirmed
+./app/controllers/bookings_controller.rb:  def broker_booking_response
+./app/controllers/bookings_controller.rb:  def broker_approve_booking
+./app/controllers/bookings_controller.rb:  def broker_decline_booking
+./app/controllers/bookings_controller.rb:  def renter_confirm_booking
+./app/controllers/bookings_controller.rb:  def renter_cancel_booking
+./app/controllers/bookings_controller.rb:  def modal
+./app/controllers/bookings_controller.rb:  def discuss
+./app/controllers/bookings_controller.rb:  def renter_complete_booking
+./app/controllers/bookings_controller.rb:  def successfully_create_booking(booking, params, property)
+./app/controllers/bookings_controller.rb:  def find_conversation
+./app/controllers/bookings_controller.rb:  def broker_decline_booking_success(params, booking)
+./app/controllers/bookings_controller.rb:  def broker_approve_booking_success(params, booking)
+./app/controllers/bookings_controller.rb:  def submit_booking_success(params, booking)
+./app/controllers/bookings_controller.rb:  def send_successful_customer_io_events(booking, message)
+./app/controllers/bookings_controller.rb:  def sign_in_user_after_redirect
+./app/controllers/bookings_controller.rb:  def set_current_page
+./app/controllers/bookings_controller.rb:  def check_booking_state
+./app/controllers/bookings_controller.rb:  def find_broker_booking
+./app/controllers/bookings_controller.rb:  def find_renter_booking
+./app/controllers/dashboards_controller.rb:  def show
+./app/controllers/dashboards_controller.rb:  def supply_bookings
+./app/controllers/dashboards_controller.rb:  def change_password
+./app/controllers/dashboards_controller.rb:  def edit_user_password
+./app/controllers/dashboards_controller.rb:  def demand_side_dashboard
+./app/controllers/dashboards_controller.rb:  def supply_side_dashboard
+./app/controllers/dashboards_controller.rb:  def dashboard_permissions_failure
+./app/controllers/users/omniauth_callbacks_controller.rb:  def facebook
+./app/controllers/users/sessions_controller.rb:  def instant_sign_in
+./app/controllers/users/sessions_controller.rb:  def new
+./app/controllers/users/registrations_controller.rb:  def build_resource_with_utm_params(hash = nil, options = {})
+./app/controllers/photo_management/photo_appointments_controller.rb:  def index
+./app/controllers/photo_management/photo_appointments_controller.rb:  def create
+./app/controllers/photo_management/photo_appointments_controller.rb:  def show
+./app/controllers/photo_management/photo_appointments_controller.rb:  def scheduled
+./app/controllers/photo_management/photo_appointments_controller.rb:  def past
+./app/controllers/photo_management/photo_appointments_controller.rb:  def complete_appointment
+./app/controllers/photo_management/photo_appointment_slots_controller.rb:  def book_slot
+./app/controllers/messages_controller.rb:  def deliver
+./app/controllers/messages_controller.rb:  def create
+./app/controllers/validations_controller.rb:  def user_email
+./app/controllers/validations_controller.rb:  def space_neighborhoods
+./app/controllers/jobs_controller.rb:  def index
+./app/controllers/jobs_controller.rb:  def show
+./app/controllers/search_locations_controller.rb:  def create
+./app/controllers/search_locations_controller.rb:  def search
+./app/controllers/supply/listings_controller.rb:  def index
+./app/controllers/supply/listings_controller.rb:  def edit
+./app/controllers/supply/listings_controller.rb:  def new
+./app/controllers/supply/bookings_controller.rb:  def index
+./app/controllers/supply/bookings_controller.rb:  def show
+./app/controllers/supply/bookings_controller.rb:  def accept
+./app/controllers/supply/bookings_controller.rb:  def reject
+./app/controllers/supply/bookings_controller.rb:  def request_edit
+./app/controllers/social_actions_controller.rb:  def email_a_friend
+./app/controllers/social_actions_controller.rb:  def unstar
+./app/controllers/social_actions_controller.rb:  def star
+./app/controllers/welcome_funnel/supply_controller.rb:  def get_started
+./app/controllers/welcome_funnel/supply_controller.rb:  def new_space
+./app/controllers/welcome_funnel/supply_controller.rb:  def save_space
+./app/controllers/welcome_funnel/supply_controller.rb:  def photo_appointment
+./app/controllers/welcome_funnel/supply_controller.rb:    def create_space_success(property)
+./app/controllers/welcome_funnel/supply_controller.rb:    def create_space_failure
+./app/controllers/welcome_funnel/demand_controller.rb:  def new_popup
+./app/controllers/welcome_funnel/demand_controller.rb:  def create_new_popup
+./app/controllers/welcome_funnel/demand_controller.rb:  def popup_confirmation; end
+./app/controllers/welcome_funnel/demand_controller.rb:  def find_or_create_popup_user(params)
+./app/controllers/welcome_funnel/demand_controller.rb:  def find_or_create_user_account_for_guest(params)
+./app/controllers/welcome_funnel/demand_controller.rb:  def new_popup_date_error_and_saved_successfully(new_popup, user)
+./app/controllers/static_pages_controller.rb:  def home
+./app/controllers/static_pages_controller.rb:  def about
+./app/controllers/static_pages_controller.rb:  def how_it_works
+./app/controllers/static_pages_controller.rb:  def what_is_a_popup_shop
+./app/controllers/static_pages_controller.rb:  def start_a_popup_shop
+./app/controllers/static_pages_controller.rb:  def list_your_property
+./app/controllers/static_pages_controller.rb:  def contact
+./app/controllers/static_pages_controller.rb:  def find_space
+./app/controllers/static_pages_controller.rb:  def terms
+./app/controllers/static_pages_controller.rb:  def privacy
+./app/controllers/static_pages_controller.rb:  def lease
+./app/controllers/static_pages_controller.rb:  def press
+./app/controllers/static_pages_controller.rb:  def team
+./app/controllers/application_controller.rb:  def dashboard_path
+./app/controllers/application_controller.rb:  def user_for_paper_trail
+./app/controllers/application_controller.rb:  def user_for_log_activity
+./app/controllers/application_controller.rb:  def save_utm_params_to_cookies
+./app/controllers/application_controller.rb:  def customer_io_indentify
+./app/controllers/application_controller.rb:  def km_init # What is km???
+./app/controllers/application_controller.rb:  def error_404
+./app/controllers/application_controller.rb:  def assign_guest_id
+./app/controllers/application_controller.rb:  def log_user_activity
+./app/controllers/application_controller.rb:  def capture_redirect_params
+./app/controllers/application_controller.rb:  def store_location
+./app/controllers/application_controller.rb:  def json_request?
+./app/controllers/application_controller.rb:  def check_for_in_progress_booking
+./app/controllers/application_controller.rb:  def track_mixpanel_event_guest(event_name, properties)
+./app/controllers/application_controller.rb:  def track_mixpanel_event(event_name, properties)
+./app/controllers/application_controller.rb:  def demand_side_user
+./app/controllers/application_controller.rb:  def supply_side_user
+./app/controllers/application_controller.rb:  def authenticate_supply_user!
+./app/controllers/application_controller.rb:  def authenticate_demand_user!
+./app/controllers/application_controller.rb:  def generate_identifier
+./app/controllers/application_controller.rb:  def property_calendar
+./app/controllers/application_controller.rb:  def is_user_dashboard?
+./app/controllers/application_controller.rb:  def after_sign_in_path_for(resource)
+./app/controllers/welcome_funnel_controller.rb:  def new_user
+./app/controllers/welcome_funnel_controller.rb:  def user_signup_success(user)
+./app/controllers/welcome_funnel_controller.rb:  def demand_side_success(user)
+./app/controllers/welcome_funnel_controller.rb:  def supply_side_success(user)
+./app/controllers/welcome_funnel_controller.rb:  def demand_side_error
+./app/controllers/welcome_funnel_controller.rb:  def supply_side_error
+./app/controllers/case_studies_controller.rb:  def index
+./app/controllers/case_studies_controller.rb:  def show
+./app/controllers/popup_requests_controller.rb:  def show; end
+./app/controllers/popup_requests_controller.rb:  def select_property
+./app/controllers/popup_requests_controller.rb:  def deselect_property
+./app/controllers/popup_requests_controller.rb:  def confirm_property_selection
+./app/controllers/popup_requests_controller.rb:  def find_popup_request
+./app/controllers/popup_requests_controller.rb:  def select_property_success(property)
+./app/controllers/popup_requests_controller.rb:  def select_property_failure()
+./app/controllers/popup_requests_controller.rb:  def deselect_property_success(property)
+./app/controllers/popup_requests_controller.rb:  def deselect_property_failure()
+./app/controllers/popup_requests_controller.rb:  def confirm_property_selection_success
+./app/controllers/popup_requests_controller.rb:  def confirm_property_selection_failure
+./app/controllers/renter_geo_requests_controller.rb:  def create
+./app/controllers/calendar_controller.rb:  def index
+./app/controllers/calendar_controller.rb:  def default_format_js
+./app/controllers/demand/bookings_controller.rb:  def index
+./app/controllers/demand/bookings_controller.rb:  def show
+./app/controllers/demand/bookings_controller.rb:  def deliver_existing
+./app/controllers/demand/bookings_controller.rb:    def load_booking
+./app/controllers/demand/booking_proposal_cards_controller.rb:  def create
+./app/controllers/demand/booking_proposal_cards_controller.rb:  def update
+./app/controllers/demand/booking_proposal_cards_controller.rb:  def deliver_existing
+./app/controllers/demand/booking_proposal_cards_controller.rb:    def load_booking
+./app/controllers/demand/booking_proposal_cards_controller.rb:    def proposal_card_params
+./app/controllers/demand/property_proposal_cards_controller.rb:  def create
+./app/controllers/demand/property_proposal_cards_controller.rb:  def deliver_existing
+./app/controllers/demand/property_proposal_cards_controller.rb:    def load_property
+./app/controllers/demand/property_proposal_cards_controller.rb:    def proposal_card_params
+./app/controllers/demand/proposal_cards_controller.rb:  def index
+./app/controllers/demand/proposal_cards_controller.rb:  def new
+./app/controllers/demand/proposal_cards_controller.rb:  def create
+./app/controllers/demand/proposal_cards_controller.rb:  def edit
+./app/controllers/demand/proposal_cards_controller.rb:  def create_and_deliver
+./app/controllers/demand/proposal_cards_controller.rb:  def update_and_deliver
+./app/controllers/demand/proposal_cards_controller.rb:  def deliver
+./app/controllers/demand/proposal_cards_controller.rb:  def update
+./app/controllers/demand/proposal_cards_controller.rb:    def proposal_card_params
+./app/controllers/demand/demand_controller.rb:    def load_bookings
+./app/controllers/demand/demand_controller.rb:    def load_proposal_cards
+./app/controllers/chats_controller.rb:  def new
+./app/controllers/chats_controller.rb:  def auth
+./app/controllers/chats_controller.rb:  def background_jobs(params, chat, recipient, sender, chat_hash)
+./app/controllers/import_properties_controller.rb:  def mass_import
+./app/controllers/import_properties_controller.rb:  def create_mass_import
+./app/controllers/help_controller.rb:  def new
+./app/models/booking_paperwork.rb:  def has_file?
+./app/models/property.rb:  def check_and_update_broker_id_in_bookings
+./app/models/property.rb:  def self.nearby(location_details, options)
+./app/models/property.rb:  def find_nearby_properties(limit)
+./app/models/property.rb:  def push_nearby_properties(nearby, location, limit)
+./app/models/property.rb:  def self.live_properties_near_with_limit(city, limit, property)
+./app/models/property.rb:  def self.weekly_property_growth
+./app/models/property.rb:  def self.monthly_property_growth
+./app/models/property.rb:  def from_usa?
+./app/models/property.rb:  def week
+./app/models/property.rb:  def enqueue_update_city_district
+./app/models/property.rb:  def display_image(size)
+./app/models/property.rb:  def escaped_address
+./app/models/property.rb:  def index_full_location
+./app/models/property.rb:  def full_location
+./app/models/property.rb:  def space_description
+./app/models/property.rb:  def display_size
+./app/models/property.rb:  def update_property_features(features, property_id)
+./app/models/property.rb:  def create_location_records
+./app/models/property.rb:  def last_updated_at_in_days
+./app/models/property.rb:  def add_watermark?
+./app/models/property.rb:  def display_price_type
+./app/models/property.rb:  def has_calendar_been_updated?
+./app/models/property.rb:  def calendar_updated_in_last_two_weeks?
+./app/models/property.rb:  def check_basic_information
+./app/models/property.rb:  def check_photo_appointment_schedule
+./app/models/property.rb:  def check_property_checklist
+./app/models/property.rb:  def check_event_calendars
+./app/models/property.rb:  def check_property_live
+./app/models/property.rb:  def is_owned_by_user?(user)
+./app/models/property.rb:  def calculate_storefront_fee
+./app/models/property.rb:  def update_total_price
+./app/models/property.rb:  def ensure_total_price!
+./app/models/property.rb:    def update_location_attribute
+./app/models/property/property_validations.rb:    def price_scopes
+./app/models/property/property_validations.rb:    def general_scopes
+./app/models/property/property_relations.rb:    def belongs_to_relations
+./app/models/property/property_relations.rb:    def has_one_relations
+./app/models/property/property_relations.rb:    def has_many_relations
+./app/models/property/property_relations.rb:    def relations_nested_attributes
+./app/models/property/property_swiftype.rb:    def update_swiftype
+./app/models/property/property_swiftype.rb:    def enqueue_delete_search_document
+./app/models/property/property_scopes.rb:    def status_scopes
+./app/models/property/property_scopes.rb:    def photo_scopes
+./app/models/property_image.rb:  def image_from_url
+./app/models/property_image.rb:  def process_image
+./app/models/property_image.rb:  def reindex_property_after_image_is_processed
+./app/models/stripe_customer.rb:  def create_new_customer(token, user_email)
+./app/models/stripe_customer.rb:  def charge_stripe_customer(booking_id, amount_to_charge_customer)
+./app/models/location.rb:  def self.states
+./app/models/location.rb:  def self.cities
+./app/models/location.rb:  def self.neighborhoods
+./app/models/location.rb:  def self.cities_by_state(state)
+./app/models/location.rb:  def self.search(query)
+./app/models/property_import.rb:  def initialize(properties_csv, user_id)
+./app/models/property_import.rb:  def ignored_rows
+./app/models/property_import.rb:  def attempt_to_create_property(row)
+./app/models/property_import.rb:  def attempt_to_update_property(row)
+./app/models/property_import.rb:  def parse_and_import
+./app/models/job.rb:  def formated_description
+./app/models/job.rb:  def formated_description_preview
+./app/models/job.rb:  def salary_range
+./app/models/job.rb:  def posted_on
+./app/models/property_checklist_item.rb:  def is_processed
+./app/models/property_checklist_item.rb:  def self.ready
+./app/models/property_checklist_item.rb:  def inform_bookings_in_progress
+./app/models/chat.rb:  def send_email_to_reciever(current_user_id)
+./app/models/chat.rb:  def customerio_hash(sender, recipient, booking)
+./app/models/company.rb:  def display_logo
+./app/models/photo_appointment_slots.rb:  def start_time_should_not_be_nil
+./app/models/photo_appointment_slots.rb:  def display_date
+./app/models/photo_appointment_slots.rb:  def start_time_min
+./app/models/photo_appointment_slots.rb:  def end_time_min
+./app/models/photo_appointment_slots.rb:    def assign_default_duration_and_selected
+./app/models/user.rb:  def bookings
+./app/models/user.rb:  def to_s
+./app/models/user.rb:  def add_pending_rloes
+./app/models/user.rb:  def after_token_authentication
+./app/models/user.rb:  def self.admins
+./app/models/user.rb:  def self.supply
+./app/models/user.rb:  def self.demand
+./app/models/user.rb:  def self.photographers
+./app/models/user.rb:  def update_activities(guest_id)
+./app/models/user.rb:  def display_name
+./app/models/user.rb:  def first_name
+./app/models/user.rb:  def last_name
+./app/models/user.rb:  def self.create_with_omniauth(auth)
+./app/models/user.rb:  def profile_image(size)
+./app/models/user.rb:  def find_or_create_company
+./app/models/user.rb:  def subscribe_user_to_mailchimp
+./app/models/user.rb:  def messageable_users
+./app/models/user.rb:  def add_roles
+./app/models/user.rb:  def reset_instant_sign_in!
+./app/models/user.rb:  def member_since
+./app/models/user.rb:  def properties_in_states
+./app/models/user.rb:  def get_most_recent_property_image
+./app/models/user.rb:  def is_user_a_renter?
+./app/models/user.rb:  def clickable_url
+./app/models/user.rb:  def customerio_hash
+./app/models/user.rb:  def has_complete_profile?
+./app/models/user.rb:  def generate_unlock_token
+./app/models/user.rb:  def after_password_reset
+./app/models/popup_request.rb:      def percent_complete
+./app/models/popup_request.rb:      def next_step
+./app/models/popup_request.rb:      def percent_complete
+./app/models/popup_request.rb:      def next_step
+./app/models/popup_request.rb:      def percent_complete
+./app/models/popup_request.rb:      def next_step
+./app/models/popup_request.rb:      def percent_complete
+./app/models/popup_request.rb:      def percent_complete
+./app/models/popup_request.rb:  def event_dates
+./app/models/popup_request.rb:  def location
+./app/models/popup_request.rb:  def calculate_event_length
+./app/models/popup_request.rb:  def city_class
+./app/models/popup_request.rb:  def color_code
+./app/models/popup_request.rb:  def customerio_hash(user)
+./app/models/proposal_card.rb:  def self.create_from_booking(user, booking, params = {})
+./app/models/proposal_card.rb:  def deliver_to_booking(booking)
+./app/models/floor_plan.rb:  def image_from_url
+./app/models/floor_plan.rb:  def process_image
+./app/models/photo_appointment.rb:  def confirm_appointment!(slot_id, user_id)
+./app/models/photo_appointment.rb:  def unconfirm_appointment!(slot_id)
+./app/models/photo_appointment.rb:  def user_owns_slot?(user_id)
+./app/models/photo_appointment.rb:  def mark_as_complete!
+./app/models/photo_appointment.rb:  def requested_on
+./app/models/photo_appointment.rb:  def update_swiftype
+./app/models/photo_appointment.rb:  def remove_from_swiftype
+./app/models/photo_appointment.rb:  def has_available_slots?
+./app/models/photo_appointment.rb:  def self.available_appointments
+./app/models/photo_appointment.rb:  def set_broker_id
+./app/models/photo_appointment.rb:  def customerio_hash
+./app/models/photo_appointment.rb:    def send_hipchat_message
+./app/models/featured_property.rb:  def self.find_properties_by_city(city)
+./app/models/popup_request_property.rb:  def select_property
+./app/models/popup_request_property.rb:  def deselect_property
+./app/models/popup_request_property.rb:  def is_selected?
+./app/models/booking.rb:  def self.broker_follow_up(id, time, attributes)
+./app/models/booking.rb:  def has_price_been_calculated?
+./app/models/booking.rb:  def display_booking
+./app/models/booking.rb:  def checklist_items
+./app/models/booking.rb:  def self.monthly_property_growth
+./app/models/booking.rb:  def event_dates
+./app/models/booking.rb:  def display_start_date
+./app/models/booking.rb:  def display_end_date
+./app/models/booking.rb:  def check_and_mark_if_paperwork_complete
+./app/models/booking.rb:  def update_price
+./app/models/booking.rb:  def mark_as_paid!
+./app/models/booking.rb:  def set_broker_id_and_reference_number
+./app/models/booking.rb:  def display_price
+./app/models/booking.rb:  def calculate_price(raw_number=false)
+./app/models/booking.rb:  def get_other_booking_user(user_id)
+./app/models/booking.rb:  def show_proposal
+./app/models/booking/calculate_booking_prices.rb:  def initialize(booking)
+./app/models/booking/calculate_booking_prices.rb:  def calculate_total_booking_amount
+./app/models/booking/calculate_booking_prices.rb:  def calculate_renter_fee
+./app/models/booking/calculate_booking_prices.rb:  def calculate_broker_fee
+./app/models/booking/calculate_booking_prices.rb:  def calculate_storefront_fee
+./app/models/booking/calculate_booking_prices.rb:  def calculate_total_amount_with_fees
+./app/models/booking/calculate_booking_prices.rb:  def calculate_total_amount_to_charge_renter
+./app/models/booking/calculate_booking_prices.rb:  def calculate_remaining_booking_amount
+./app/models/booking/calculate_booking_prices.rb:  def calculate_total_amount_due_to_broker
+./app/models/booking/calculate_booking_prices.rb:  def perform_calculations
+./app/models/booking/calculate_booking_prices.rb:  def update_booking_with_new_prices
+./app/models/booking/calculate_booking_prices.rb:  def perform_calculations_and_update
+./app/models/booking/calculate_booking_prices.rb:  def update_booking_with_new_prices!
+./app/models/booking/calculate_booking_prices.rb:  def print_prices
+./app/models/booking/process_booking_charges.rb:  def initialize(booking_id, user_id)
+./app/models/booking/process_booking_charges.rb:  def charge_initial_amount
+./app/models/booking/process_booking_charges.rb:  def charge_remaining_amount
+./app/models/booking/process_booking_charges.rb:  def find_and_charge_stripe_customer(amount)
+./app/models/booking/right_signature_document.rb:    def send_document_to_bookings_in_progress(guid, checklist_item_id, options, connection)
+./app/models/booking/right_signature_document.rb:    def send_documents_for_booking(booking, connection, guid, options, checklist_item)
+./app/models/booking/right_signature_document.rb:    def send_document_for_signature(booking_id, options, connection)
+./app/models/booking/right_signature_document.rb:    def iterate_through_checklist_items_when_sending_document(checklist_item, connection, booking, options, property)
+./app/models/booking/right_signature_document.rb:    def get_roles(clone_detail, booking)
+./app/models/booking/right_signature_document.rb:    def establish_roles(first_user, second_user, role, clone_detail)
+./app/models/booking/right_signature_document.rb:    def log_rightsignature(booking, response_guid, checklist_item)
+./app/models/booking/right_signature_document.rb:    def callback_location(property, booking, checklist_item)
+./app/models/booking/booking_state_machine.rb:      def state_transitions
+./app/models/booking/booking_state_machine.rb:      def state_events
+./app/models/booking/booking_state_machine.rb:        def next_step_renter
+./app/models/booking/booking_state_machine.rb:        def next_step_broker
+./app/models/booking/booking_state_machine.rb:        def next_step_renter
+./app/models/booking/booking_state_machine.rb:        def next_step_broker
+./app/models/booking/booking_state_machine.rb:        def next_step_renter
+./app/models/booking/booking_state_machine.rb:        def next_step_broker
+./app/models/booking/booking_state_machine.rb:        def next_step_renter
+./app/models/booking/booking_state_machine.rb:        def next_step_broker
+./app/models/booking/booking_state_machine.rb:        def next_step_renter
+./app/models/booking/booking_state_machine.rb:        def next_step_broker
+./app/models/booking/booking_state_machine.rb:        def next_step_renter
+./app/models/booking/booking_state_machine.rb:        def next_step_broker
+./app/models/booking/booking_state_machine.rb:    def send_email
+./app/models/booking/booking_state_machine.rb:    def email_all
+./app/models/booking/booking_state_machine.rb:    def customerio_hash(sender, recipient, proposal_card, booking)
+./app/models/booking/booking_state_machine.rb:    def get_booking_show_url(recipient)
+./app/models/concerns/completable.rb:    def define_completeness_checks(&block)
+./app/models/concerns/completable.rb:  def passed_checks
+./app/models/concerns/completable.rb:  def failed_checks
+./app/models/concerns/completable.rb:  def run_checks
+./app/models/concerns/completable.rb:  def completeness_achieved?
+./app/models/concerns/completable.rb:  def completeness_started?
+./app/models/concerns/completable.rb:  def current_score
+./app/models/concerns/completable.rb:  def run_check(check)
+./app/models/message.rb:  def pusher_send
+./app/models/message.rb:  def send_email
+./app/models/message.rb:  def customerio_hash(sender, recipient, booking)
+./app/models/case_study.rb:  def display_slideshow_images
+./app/models/case_study.rb:  def display_quote_image_url
+./app/models/case_study.rb:  def display_logo_url
+./app/models/case_study.rb:  def page_title
+./app/models/case_study.rb:  def build_image_array
+./app/models/case_study.rb:  def company_and_title
+./app/models/user/create_demand_user.rb:  def initialize(params)
+./app/models/user/create_supply_user.rb:  def initialize(params)
+./app/models/booking_document.rb:  def check_if_signed
+./app/models/booking_document.rb:  def booking_percentage_done(booking, fraction)
+./app/models/booking_document.rb:  def checklist_item_complete(booking, booking_percentage_done)
+./app/models/booking_document.rb:  def booking_successfully_completed(booking)
+./app/admin/bookings.rb:    def scoped_collection
+./app/admin/properties.rb:    def create
+./app/admin/properties.rb:    def update
+./app/decorators/booking_decorator.rb:  def next_steps
+./app/decorators/booking_decorator.rb:  def customerio_hash(action)
+./app/decorators/booking_decorator.rb:  def raw_customerio_hash
+./app/decorators/booking_decorator.rb:  def related_properties_hash
+./app/decorators/booking_decorator.rb:  def price_to_currency_hash
+./app/decorators/booking_decorator.rb:  def urls_hash
+./app/decorators/booking_decorator.rb:  def user_details(user_type)
+./app/decorators/booking_decorator.rb:  def property_details
+./app/decorators/renter_geo_request_decorator.rb:  #   def created_at
+./app/decorators/job_decorator.rb:  #   def created_at
+./app/decorators/property_decorator.rb:  def customerio_hash(user)
+./app/workers/swiftype_property.rb:  def perform(property_id)
+./app/workers/mailchimp_subscribe.rb:  def perform(user_id, list_id)
+./app/workers/track_mixpanel_event_guest.rb:  def perform(name, properties)
+./app/workers/reminder_email_for_broker_photographer.rb:  def perform(broker_id, photographer_id)
+./app/workers/process_image.rb:  def perform(id, klass, attachment)
+./app/workers/migrate_floor_plans.rb:  def perform
+./app/workers/email_to_broker_photographer.rb:  def perform(broker_id, photographer_id, appointment_id)
+./app/workers/migrate_property_images.rb:  def perform
+./app/workers/update_new_price_structure.rb:  def perform
+./app/workers/delete_swiftype_document.rb:  def perform(property_id)
+./app/workers/migrate_property_documents.rb:  def perform
+./app/workers/hipchat.rb:  def perform(room, username, message)
+./app/workers/mailchimp_guest_subscribe.rb:  def perform(email, list_id)
+./app/workers/delete_photo_appointment.rb:  def perform(photo_appointment_id)
+./app/workers/right_signature_worker.rb:  def perform(first_time, args={}, options={})
+./app/workers/delete_swiftype_location.rb:  def perform(location_id)
+./app/workers/customerio_worker.rb:  def perform(user_id, identify, action, attributes={})
+./app/workers/update_state_city_for_property.rb:  def perform(property_id)
+./app/workers/new_desk_ticket.rb:  def perform(user_email, subject, body)
+./app/workers/track_mixpanel_event.rb:  def perform(name, properties, user_id)
+./app/workers/photo_appointments_swiftype.rb:  def perform(appointment_id)
+./app/workers/photo_appointments_swiftype.rb:  def update_swiftype_photo_appointment(doc, appointment, property, url)
+./app/workers/photo_appointments_swiftype.rb:  def create_swiftype_photo_appointment(property, appointment, type, url)
+./app/helpers/calendar_helper.rb:  def month_link(month_date)
+./app/helpers/calendar_helper.rb:  def day_link(text, date, day_action)
+./app/helpers/calendar_helper.rb:  def event_calendar_options
+./app/helpers/calendar_helper.rb:  def event_calendar
+./app/helpers/calendar_helper.rb:  def popup_request_calendar
+./app/helpers/popup_requests_helper.rb:  def property_select_reject_link(popup_request, property)
+./app/helpers/popup_requests_helper.rb:  def select_this_property(popup_request, property)
+./app/helpers/popup_requests_helper.rb:  def deslect_this_property(popup_request, property)
+./app/helpers/property_search_helper.rb:  def property_search_pagination
+./app/helpers/property_search_helper.rb:  def empty_property_results_header
+./app/helpers/property_search_helper.rb:  def city_of_current_search(address)
+./app/helpers/property_search_helper.rb:  def property_sort_form
+./app/helpers/property_search_helper.rb:  def property_search_filters
+./app/helpers/property_search_helper.rb:  def  empty_results_headline
+./app/helpers/property_search_helper.rb:  def empty_results_subhead
+./app/helpers/property_search_helper.rb:  def property_sort_button(type)
+./app/helpers/property_search_helper.rb:  def property_search_map_toggle
+./app/helpers/property_search_helper.rb:  def property_search_price_type_group
+./app/helpers/property_search_helper.rb:  def property_search_price_type_filter(type)
+./app/helpers/property_search_helper.rb:  def property_search_slider_group(name)
+./app/helpers/slide_show_helper.rb:  def full_width_slide_show(slide_array)
+./app/helpers/slide_show_helper.rb:  def slideshow_css(slide_array)
+./app/helpers/slide_show_helper.rb:  def single_image_css
+./app/helpers/slide_show_helper.rb:  def slideshow_css_keyframes(slide_array)
+./app/helpers/slide_show_helper.rb:  def keyframe_full_visible(slide_array)
+./app/helpers/slide_show_helper.rb:  def keyframe_half_visible(slide_array)
+./app/helpers/slide_show_helper.rb:  def keyframe_not_visible(slide_array)
+./app/helpers/slide_show_helper.rb:  def slide_show_slide(image, caption, index, duration)
+./app/helpers/slide_show_helper.rb:  def calculate_total_length(slide_array)
+./app/helpers/slide_show_helper.rb:  def calculate_delay(index)
+./app/helpers/slide_show_helper.rb:  def animation_css(duration, delay)
+./app/helpers/properties_helper.rb:  def property_slideshow_conditional(image)
+./app/helpers/properties_helper.rb:  def property_slideshow_image(image)
+./app/helpers/properties_helper.rb:  def empty_slideshow_image
+./app/helpers/properties_helper.rb:  def book_this_space(property)
+./app/helpers/properties_helper.rb:  def toggle_property_status_link(property)
+./app/helpers/properties_helper.rb:  def toggle_property_status_icon(property)
+./app/helpers/properties_helper.rb:  def toggle_property_status_link_other(property)
+./app/helpers/properties_helper.rb:  def property_location(property)
+./app/helpers/properties_helper.rb:  def property_description(property)
+./app/helpers/properties_helper.rb:  def property_image_link(property, popup_request)
+./app/helpers/properties_helper.rb:  def property_image_link_single(property)
+./app/helpers/properties_helper.rb:  def property_feature_status(feature)
+./app/helpers/properties_helper.rb:  def property_has_feature(feature)
+./app/helpers/properties_helper.rb:  def property_doesnt_have_feature(feature)
+./app/helpers/properties_helper.rb:  def attribute_tab(tab, status)
+./app/helpers/properties_helper.rb:  def display_property_price(property)
+./app/helpers/properties_helper.rb:  def category_should_show?(property, category_tab)
+./app/helpers/properties_helper.rb:  def next_date_available(date_available)
+./app/helpers/properties_helper.rb:  def url_for_property_checklist(name, property)
+./app/helpers/properties_helper.rb:  def conditional_property_image(property)
+./app/helpers/stripe_customer_helper.rb:  def display_active_card(card)
+./app/helpers/property_search_listing_helper.rb:  def property_listing
+./app/helpers/property_search_listing_helper.rb:  def property_listing_price
+./app/helpers/property_search_listing_helper.rb:  def property_listing_description
+./app/helpers/property_search_listing_helper.rb:  def property_listing_title
+./app/helpers/property_search_listing_helper.rb:  def property_listing_info
+./app/helpers/property_search_listing_helper.rb:  def property_listing_image
+./app/helpers/bookings_helper.rb:  def renter_profile_image(booking)
+./app/helpers/bookings_helper.rb:  def booking_link_with_state(booking, anchor_text)
+./app/helpers/bookings_helper.rb:  def renter_state_link(booking, anchor_text)
+./app/helpers/bookings_helper.rb:  def broker_state_link(booking, anchor_text)
+./app/helpers/bookings_helper.rb:  def booking_approve_decline_button(booking)
+./app/helpers/bookings_helper.rb:  def time_remaining_countdown(booking)
+./app/helpers/bookings_helper.rb:  def booking_progress_bar(booking, percentage_done, id)
+./app/helpers/bookings_helper.rb:  def booking_price_link(booking)
+./app/helpers/application_helper.rb:  def link_with_icon(args)
+./app/helpers/application_helper.rb:  def display_header_search_box
+./app/helpers/application_helper.rb:  def display_logo
+./app/helpers/application_helper.rb:  def is_user_dashboard?
+./app/helpers/application_helper.rb:  def static_map(size, zoom, property)
+./app/helpers/application_helper.rb:  def redis_available?
+./app/helpers/application_helper.rb:  def self.redis_available?
+./app/helpers/case_study_helper.rb:  def case_study_summary_content(case_study)
+./app/helpers/case_study_helper.rb:  def case_study_primary_content(case_study)
+./app/helpers/dashboards_helper.rb:  def dashboard_sidebar_link(path, title, icon, notifications=nil)
+./app/helpers/dashboards_helper.rb:  def event_status_percent(event)
+./app/helpers/dashboards_helper.rb:  def event_dates(event)
+./app/helpers/dashboards_helper.rb:  def support_modal_link
+./app/helpers/dashboards_helper.rb:  def dashboard_breadcrumbs(popup_request)
+./app/helpers/dashboards_helper.rb:  def unread_message_count
+./app/helpers/dashboards_helper.rb:  def new_bookings_count
+./app/helpers/users_helper.rb:  def user_profile_image
+./app/helpers/users_helper.rb:  def profile_image_of_user(user)
+./app/helpers/users_helper.rb:  def square_user_image(size, user, dim)
+Binary file ./.git/objects/pack/pack-d521c75b4d6ba1bce55772cdf090150bfa0bbdcb.pack matches
+./.git/hooks/pre-rebase.sample:					undef $msg;
+./spec/support/controller_macros.rb:  def login_user
+./config/initializers/active_admin.rb:  def check_admin_role
