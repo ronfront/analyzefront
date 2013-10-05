@@ -1,7 +1,11 @@
 import re
+import os
+import subprocess
 
 
 def render_name():
+    if os.path.exists("output/render.txt"):
+        return
     f = open("output/render.txt", "wb")
     for i, line in enumerate(open("txts/render.txt")):
         filename = line.split(":")[0]
@@ -21,6 +25,8 @@ def render_name():
 
 
 def def_name():
+    if os.path.exists("output/def.txt"):
+        return
     f = open("output/def.txt", "wb")
     for i, line in enumerate(open("txts/def.txt")):
         filename = line.split(":")[0]
@@ -29,7 +35,8 @@ def def_name():
         if defs:
             defs = defs[0].replace("?", "(")
             defs = defs.split("(")[0]
-        f.write("{0}|{1}\n".format(filename, defs))
+        cnts = subprocess.check_output('grep -r "{0}" . | wc'.format(defs), shell=True).split()[0]
+        f.write("{0}|{1}|{2}\n".format(filename, defs, cnts))
     f.close()
 
 
