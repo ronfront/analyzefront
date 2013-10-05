@@ -35,7 +35,7 @@ def def_name():
         if defs:
             defs = defs[0].replace("?", "(")
             defs = defs.split("(")[0]
-        cnts = subprocess.check_output('grep -r "{0}" . | wc'.format(defs), shell=True).split()[0]
+        cnts = subprocess.check_output('grep -r "{0}" ../Storefront/. | wc'.format(defs), shell=True).split()[0]
         f.write("{0}|{1}|{2}\n".format(filename, defs, cnts))
     f.close()
 
